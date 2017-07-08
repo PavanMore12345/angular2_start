@@ -1,0 +1,28 @@
+.form1
+	{
+    background-color:#F0F0EF;
+    /*border-radius: 25px;*/
+		width:30% !important;
+        width: auto;
+		height:auto;
+		padding-left:20px;
+		padding-top:20px;
+		padding-right:20px;
+		padding-bottom:20px;
+		/*background-color: gray;*/
+	margin: 0 auto;
+	margin-top:07%
+	}
+.username
+{
+    margin: auto;
+    display: block;
+    text-align: center;
+}
+#login
+{
+    margin: auto;
+    display: block;
+    text-align: center;
+    padding-top: 20px;
+}

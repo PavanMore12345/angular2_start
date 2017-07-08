@@ -1,0 +1,22 @@
+<form #userform="ngForm" novalidate class="form1" (ngSubmit)="save(userform.value,userform.valid)" >
+    <h2 class="username">Login</h2>
+  <div class="form-group" class="username" >
+    <label for="name">Email</label>
+    <input type="text" id="name" name="email" class="form-control" [(ngModel)]="user.email" #email="ngModel" placeholder="email" required pattern="[^@\s]+@[^@\s]+\.[^@\s]+"/>
+    <small [hidden]="email.valid || (email.pristine && !userform.submitted)" class="text-danger">
+   email is required.
+    </small>
+    </div>
+  <div class="form-group" class="username">
+    <label for="password" id="password">Password</label>
+    <input type="password" class="form-control" name="password" [(ngModel)]="user.password" #password="ngModel" placeholder="password" required minlength="8">
+    <small [hidden]="password.valid || (password.pristine && !password.submitted)" class="text-danger">
+   password is minimum 8 character
+    </small>
+  </div>
+  <div class="form-group" id="login">
+<button type="submit" class="btn btn-primary">Login</button>
+    <a [routerLink]="['/register']" class="btn btn-link">Register</a>
+  </div>
+
+</form>

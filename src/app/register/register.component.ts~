@@ -1,0 +1,29 @@
+import { Component, OnInit } from '@angular/core';
+import {User} from './register.interface';
+import {TodoService} from '../services/todo.service';
+import 'rxjs/add/operator/map';
+import {Todo} from '../Todo';
+@Component({
+  selector: 'app-register',
+  templateUrl: './register.component.html',
+  styleUrls: ['./register.component.css']
+})
+export class RegisterComponent implements OnInit {
+todos:Todo[];
+    public user:User;
+    ngOnInit()
+    {
+        this.user =
+        {
+            name:'',
+            password:''
+    };
+this.todos=[];
+this.todoService.getTodos().map(res =>res.json()).
+subscribe(todos=>this.todos=todos)
+    }
+    save(model:User,isValid:boolean)
+    {
+        console.log(model,isValid);
+    }
+}

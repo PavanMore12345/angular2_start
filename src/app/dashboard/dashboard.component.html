@@ -1,4 +1,4 @@
-<nav class="navbar navbar-inverse">
+<nav class="navbar navbar-inverse navbar-fixed-top">
   <div class="container-fluid">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -10,60 +10,45 @@
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
         <li><a (click)="logout()" ><span class="glyphicon glyphicon-user"></span> Logout</a></li>
-        <li><a ><span class="glyphicon glyphicon-log-in"></span> gihub</a></li>
+        <li><a href="https://github.com/PavanMore12345/angular2_start" ><span class="glyphicon glyphicon-log-in"></span> gihub</a></li>
       </ul>
     </div>
   </div>
 </nav>
-<div id=sidebar>
+<div class="col-sm-2 col-sm-2 col-sm-2" >
+    <div id=sidebar>
+ <div *ngFor="let value of mobileData">
     <form>
-        <h5>Manufacturer</h5>
-    <div class="checkbox">
-      <label><input type="checkbox" value="">Samsung</label>
+        <h5>{{value.id}}</h5>
+    <div class="checkbox" *ngFor="let data of value.data">
+      <label><input type="checkbox" (click)="getData(data)" value=""  >{{data}}</label>
     </div>
-    <div class="checkbox">
-      <label><input type="checkbox" value="">Apple</label>
-    </div>
-    <div class="checkbox disabled">
-      <label><input type="checkbox" value="" disabled>htc</label>
-    </div>
-    <div class="checkbox disabled">
-      <label><input type="checkbox" value="" disabled>Nokia</label>
-    </div>
-    <div class="checkbox disabled">
-      <label><input type="checkbox" value="" disabled>sony</label>
-    </div>
-    <h5>Storage</h5>
-    <div class="checkbox disabled">
-      <label><input type="checkbox" value="" disabled>16</label>
-    </div>
-    <div class="checkbox disabled">
-      <label><input type="checkbox" value="" disabled>32</label>
-    </div>
-    <h5>Os</h5>
-    <div class="checkbox disabled">
-      <label><input type="checkbox" value="" disabled>Windows</label>
-    </div>
-    <div class="checkbox disabled">
-      <label><input type="checkbox" value="" disabled>Android</label>
-    </div>
-    <div class="checkbox disabled">
-      <label><input type="checkbox" value="" disabled>Ios</label>
-    </div>
-    <h5>Camera</h5>
-    <div class="checkbox disabled">
-      <label><input type="checkbox" value="" disabled>5</label>
-    </div>
-    <div class="checkbox disabled">
-      <label><input type="checkbox" value="" disabled>8</label>
-    </div>
-    <div class="checkbox disabled">
-      <label><input type="checkbox" value="" disabled>13</label>
-    </div>
-    <div class="checkbox disabled">
-      <label><input type="checkbox" value="" disabled>16</label>
-    </div>
-    <button type="button" class="btn btn-primary">Select All</button>
   </form>
+  {{data}}
 </div>
-fsdfsdfsdf dsfsdfsdfs
+<button type="button" class="btn btn-primary">Select All</button>
+</div>
+</div>
+<!-- <div class="row"> -->
+<div class="col-sm-9 col-md-9 col-lg-9" style="margin-top:60px;">
+<div class="col-xm-12 col-sm-6 col-md-4 col-lg-4"  *ngFor="let data of data1">
+    <div class="image">
+<img style="height:300px;margin-top:10px;"src="{{ data.image.small }}"/>
+<div class="overlay">
+    <h2>{{data.name}}</h2>
+    <small style="margin-top:10px"><strong>camera:</strong>{{data.specs.camera}}</small><br>
+    <small style="margin-top:10px" ><strong>company:</strong>{{data.specs.manufacturer}}</small><br>
+    <small style="margin-top:10px"><strong>os:</strong>{{data.specs.os}}</small><br>
+    <small style="margin-top:10px"><strong>storage:</strong>{{data.specs.storage}}</small>
+</div>
+</div>
+</div>
+</div>
+<!-- <div class="checkbox" *ngFor="let label of mobileData">
+  <div class="col-sm-4">
+    <label>
+      <input type="checkbox" value="{{label.Id}}" (change)="checkboxes[$event.target.getAttribute('value')]=$event.target.checked">
+        {{ label.Name }}</label>
+  </div>
+</div> -->
+<!-- </div> -->

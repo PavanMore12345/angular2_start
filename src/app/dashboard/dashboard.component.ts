@@ -9,22 +9,52 @@ import 'rxjs/add/operator/map';
   styleUrls: ['./dashboard.component.css']
 })
 export class DashboardComponent implements OnInit {
+ //value="manufacturer";
+ mobileData=[{id:'manufacturer',data:['samsung','sony','apple','htc','nokia']},
+ {id:'storage',data:['16','32']},{id:'os',data:['windows','android','ios']},
+ {id:'camera',data:['5','8','13','16']}];
+ data1;
+ //console.log(data1);
+  constructor(private postsService: PostsService,public http: Http, private router: Router) { }
+ ngOnInit() {
+     this.http.post('https://choco-lava.herokuapp.com/api/login', "").subscribe(
+             (res: any) => {
+             //     this.load = false;
+                 let data =res.json();
+                 console.log("data",data.data[0].image);
+                 this.data1= data.data;
+                 console.log(this.data1);
+             //     if (data.data == "User already exist!") {
+             //         alert(data.data);
+             //     }
+             //     else {
+             //         this.router.navigate(['/login']);
+             //     }
+              })
 
-  constructor(private postsService: PostsService, private router: Router) { }
-
-  ngOnInit() {
   }
+
 logout()
 {
-    this.postsService.signOut().subscribe(posts => {
-        // this.posts=posts;
-        // if(posts.status)
-        // {
-        this.router.navigate(['']);
-    // }
-        console.log(posts)
-// this.posts = posts;
-});
+    this.http.post('/logout', "").subscribe(
+            (res: any) => {
+            //     this.load = false;
+                let data =res.json();
+            if (data.status==true)
+            {
+                this.router.navigate(['']);
+            }else
+            {
+            this.router.navigate(['/dashboard']);
+            }
+             })
+}
+getData(data)
+{
+console.log(data);
+//console.log(this.data1);
+this.data1=this.data1.filter(res=>res.name.startsWith());
+console.log("res",this.data1);
 }
 
 }

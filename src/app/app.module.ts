@@ -1,4 +1,5 @@
 import { BrowserModule } from '@angular/platform-browser';
+//import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
 import { NgModule } from '@angular/core';
 // import{ FormGroup,FormControl} from '@angular/forms';
 import { HttpModule } from '@angular/http';
@@ -26,7 +27,7 @@ const appRoutes : Routes = [
     //PostsComponent
   ],
   imports: [
-    BrowserModule,
+    BrowserModule ,
     FormsModule,
     HttpModule,
     RouterModule.forRoot(appRoutes, { useHash: true})

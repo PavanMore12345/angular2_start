@@ -122,3 +122,217 @@
 {"level":"info","message":"Server Started at port no 4200","timestamp":"2017-07-08T13:53:10.550Z"}
 {"level":"error","message":"unconnected","timestamp":"2017-07-08T13:55:24.382Z"}
 {"level":"info","message":"Server Started at port no 4200","timestamp":"2017-07-08T13:55:24.383Z"}
+{"level":"error","message":"unconnected","timestamp":"2017-07-10T03:49:30.814Z"}
+{"level":"info","message":"Server Started at port no 4200","timestamp":"2017-07-10T03:49:30.816Z"}
+{"level":"error","message":"unconnected","timestamp":"2017-07-10T04:06:45.797Z"}
+{"level":"info","message":"Server Started at port no 4200","timestamp":"2017-07-10T04:06:45.798Z"}
+{"level":"error","message":"unconnected","timestamp":"2017-07-10T04:34:06.819Z"}
+{"level":"info","message":"Server Started at port no 4200","timestamp":"2017-07-10T04:34:06.820Z"}
+{"level":"error","message":"unconnected","timestamp":"2017-07-10T04:38:28.711Z"}
+{"level":"info","message":"Server Started at port no 4200","timestamp":"2017-07-10T04:38:28.713Z"}
+{"level":"error","message":"unconnected","timestamp":"2017-07-10T04:43:17.909Z"}
+{"level":"info","message":"Server Started at port no 4200","timestamp":"2017-07-10T04:43:17.910Z"}
+{"level":"error","message":"unconnected","timestamp":"2017-07-10T04:53:09.772Z"}
+{"level":"info","message":"Server Started at port no 4200","timestamp":"2017-07-10T04:53:09.773Z"}
+{"level":"error","message":"unconnected","timestamp":"2017-07-10T04:57:39.512Z"}
+{"level":"info","message":"Server Started at port no 4200","timestamp":"2017-07-10T04:57:39.513Z"}
+{"level":"error","message":"unconnected","timestamp":"2017-07-10T05:02:03.627Z"}
+{"level":"info","message":"Server Started at port no 4200","timestamp":"2017-07-10T05:02:03.628Z"}
+{"level":"error","message":"unconnected","timestamp":"2017-07-10T05:03:05.775Z"}
+{"level":"info","message":"Server Started at port no 4200","timestamp":"2017-07-10T05:03:05.776Z"}
+{"level":"error","message":"unconnected","timestamp":"2017-07-10T05:04:00.309Z"}
+{"level":"info","message":"Server Started at port no 4200","timestamp":"2017-07-10T05:04:00.310Z"}
+{"level":"error","message":"unconnected","timestamp":"2017-07-10T05:13:08.116Z"}
+{"level":"info","message":"Server Started at port no 4200","timestamp":"2017-07-10T05:13:08.117Z"}
+{"level":"error","message":"unconnected","timestamp":"2017-07-10T05:32:01.285Z"}
+{"level":"info","message":"Server Started at port no 4200","timestamp":"2017-07-10T05:32:01.286Z"}
+{"level":"error","message":"unconnected","timestamp":"2017-07-10T05:38:59.627Z"}
+{"level":"info","message":"Server Started at port no 4200","timestamp":"2017-07-10T05:38:59.628Z"}
+{"level":"error","message":"unconnected","timestamp":"2017-07-10T05:40:46.533Z"}
+{"level":"info","message":"Server Started at port no 4200","timestamp":"2017-07-10T05:40:46.534Z"}
+{"level":"error","message":"unconnected","timestamp":"2017-07-10T05:42:56.145Z"}
+{"level":"info","message":"Server Started at port no 4200","timestamp":"2017-07-10T05:42:56.146Z"}
+{"level":"error","message":"unconnected","timestamp":"2017-07-10T05:44:15.471Z"}
+{"level":"info","message":"Server Started at port no 4200","timestamp":"2017-07-10T05:44:15.472Z"}
+{"level":"error","message":"unconnected","timestamp":"2017-07-10T05:46:34.804Z"}
+{"level":"info","message":"Server Started at port no 4200","timestamp":"2017-07-10T05:46:34.805Z"}
+{"level":"error","message":"unconnected","timestamp":"2017-07-10T05:52:16.144Z"}
+{"level":"info","message":"Server Started at port no 4200","timestamp":"2017-07-10T05:52:16.145Z"}
+{"level":"error","message":"unconnected","timestamp":"2017-07-10T06:06:46.906Z"}
+{"level":"info","message":"Server Started at port no 4200","timestamp":"2017-07-10T06:06:46.908Z"}
+{"level":"error","message":"unconnected","timestamp":"2017-07-10T06:08:08.465Z"}
+{"level":"info","message":"Server Started at port no 4200","timestamp":"2017-07-10T06:08:08.466Z"}
+{"level":"error","message":"unconnected","timestamp":"2017-07-10T06:09:50.118Z"}
+{"level":"info","message":"Server Started at port no 4200","timestamp":"2017-07-10T06:09:50.119Z"}
+{"level":"error","message":"unconnected","timestamp":"2017-07-10T06:10:46.926Z"}
+{"level":"info","message":"Server Started at port no 4200","timestamp":"2017-07-10T06:10:46.927Z"}
+{"level":"error","message":"unconnected","timestamp":"2017-07-10T06:34:14.377Z"}
+{"level":"info","message":"Server Started at port no 4200","timestamp":"2017-07-10T06:34:14.378Z"}
+{"level":"error","message":"unconnected","timestamp":"2017-07-10T07:34:27.877Z"}
+{"level":"info","message":"Server Started at port no 4200","timestamp":"2017-07-10T07:34:27.878Z"}
+{"level":"error","message":"unconnected","timestamp":"2017-07-10T07:35:24.169Z"}
+{"level":"info","message":"Server Started at port no 4200","timestamp":"2017-07-10T07:35:24.170Z"}
+{"level":"error","message":"unconnected","timestamp":"2017-07-10T07:38:23.896Z"}
+{"level":"info","message":"Server Started at port no 4200","timestamp":"2017-07-10T07:38:23.897Z"}
+{"level":"error","message":"unconnected","timestamp":"2017-07-10T07:41:03.278Z"}
+{"level":"info","message":"Server Started at port no 4200","timestamp":"2017-07-10T07:41:03.279Z"}
+{"level":"error","message":"unconnected","timestamp":"2017-07-10T07:41:32.257Z"}
+{"level":"info","message":"Server Started at port no 4200","timestamp":"2017-07-10T07:41:32.258Z"}
+{"level":"error","message":"unconnected","timestamp":"2017-07-10T09:50:17.170Z"}
+{"level":"info","message":"Server Started at port no 4200","timestamp":"2017-07-10T09:50:17.171Z"}
+{"level":"error","message":"unconnected","timestamp":"2017-07-10T09:52:21.050Z"}
+{"level":"info","message":"Server Started at port no 4200","timestamp":"2017-07-10T09:52:21.052Z"}
+{"level":"error","message":"unconnected","timestamp":"2017-07-10T09:53:40.687Z"}
+{"level":"info","message":"Server Started at port no 4200","timestamp":"2017-07-10T09:53:40.688Z"}
+{"level":"error","message":"unconnected","timestamp":"2017-07-10T10:04:12.810Z"}
+{"level":"info","message":"Server Started at port no 4200","timestamp":"2017-07-10T10:04:12.811Z"}
+{"level":"error","message":"unconnected","timestamp":"2017-07-10T10:05:44.908Z"}
+{"level":"info","message":"Server Started at port no 4200","timestamp":"2017-07-10T10:05:44.909Z"}
+{"level":"error","message":"unconnected","timestamp":"2017-07-10T10:06:58.640Z"}
+{"level":"info","message":"Server Started at port no 4200","timestamp":"2017-07-10T10:06:58.641Z"}
+{"level":"error","message":"unconnected","timestamp":"2017-07-10T10:09:50.143Z"}
+{"level":"info","message":"Server Started at port no 4200","timestamp":"2017-07-10T10:09:50.144Z"}
+{"level":"error","message":"unconnected","timestamp":"2017-07-10T10:10:08.850Z"}
+{"level":"info","message":"Server Started at port no 4200","timestamp":"2017-07-10T10:10:08.851Z"}
+{"level":"error","message":"unconnected","timestamp":"2017-07-10T10:11:17.713Z"}
+{"level":"info","message":"Server Started at port no 4200","timestamp":"2017-07-10T10:11:17.714Z"}
+{"level":"error","message":"unconnected","timestamp":"2017-07-10T11:23:38.883Z"}
+{"level":"info","message":"Server Started at port no 4200","timestamp":"2017-07-10T11:23:38.884Z"}
+{"level":"error","message":"unconnected","timestamp":"2017-07-10T12:47:23.767Z"}
+{"level":"info","message":"Server Started at port no 4200","timestamp":"2017-07-10T12:47:23.768Z"}
+{"level":"error","message":"unconnected","timestamp":"2017-07-10T12:48:32.123Z"}
+{"level":"info","message":"Server Started at port no 4200","timestamp":"2017-07-10T12:48:32.124Z"}
+{"level":"error","message":"unconnected","timestamp":"2017-07-10T12:51:32.032Z"}
+{"level":"info","message":"Server Started at port no 4200","timestamp":"2017-07-10T12:51:32.033Z"}
+{"level":"error","message":"unconnected","timestamp":"2017-07-10T13:00:29.949Z"}
+{"level":"info","message":"Server Started at port no 4200","timestamp":"2017-07-10T13:00:29.950Z"}
+{"level":"error","message":"unconnected","timestamp":"2017-07-10T13:45:32.123Z"}
+{"level":"info","message":"Server Started at port no 4200","timestamp":"2017-07-10T13:45:32.125Z"}
+{"level":"error","message":"unconnected","timestamp":"2017-07-10T13:47:32.899Z"}
+{"level":"info","message":"Server Started at port no 4200","timestamp":"2017-07-10T13:47:32.901Z"}
+{"level":"error","message":"unconnected","timestamp":"2017-07-10T13:48:27.139Z"}
+{"level":"info","message":"Server Started at port no 4200","timestamp":"2017-07-10T13:48:27.140Z"}
+{"level":"error","message":"unconnected","timestamp":"2017-07-10T13:50:02.085Z"}
+{"level":"info","message":"Server Started at port no 4200","timestamp":"2017-07-10T13:50:02.087Z"}
+{"level":"error","message":"unconnected","timestamp":"2017-07-10T13:51:17.708Z"}
+{"level":"info","message":"Server Started at port no 4200","timestamp":"2017-07-10T13:51:17.709Z"}
+{"level":"error","message":"unconnected","timestamp":"2017-07-10T13:52:27.897Z"}
+{"level":"info","message":"Server Started at port no 4200","timestamp":"2017-07-10T13:52:27.898Z"}
+{"level":"error","message":"unconnected","timestamp":"2017-07-10T13:54:38.813Z"}
+{"level":"info","message":"Server Started at port no 4200","timestamp":"2017-07-10T13:54:38.814Z"}
+{"level":"error","message":"unconnected","timestamp":"2017-07-10T13:56:27.975Z"}
+{"level":"info","message":"Server Started at port no 4200","timestamp":"2017-07-10T13:56:27.976Z"}
+{"level":"error","message":"unconnected","timestamp":"2017-07-10T14:00:13.100Z"}
+{"level":"info","message":"Server Started at port no 4200","timestamp":"2017-07-10T14:00:13.101Z"}
+{"level":"error","message":"unconnected","timestamp":"2017-07-10T14:01:22.809Z"}
+{"level":"info","message":"Server Started at port no 4200","timestamp":"2017-07-10T14:01:22.810Z"}
+{"level":"error","message":"unconnected","timestamp":"2017-07-10T14:02:01.118Z"}
+{"level":"info","message":"Server Started at port no 4200","timestamp":"2017-07-10T14:02:01.119Z"}
+{"level":"error","message":"unconnected","timestamp":"2017-07-10T14:02:34.376Z"}
+{"level":"info","message":"Server Started at port no 4200","timestamp":"2017-07-10T14:02:34.377Z"}
+{"level":"error","message":"unconnected","timestamp":"2017-07-10T14:05:15.652Z"}
+{"level":"info","message":"Server Started at port no 4200","timestamp":"2017-07-10T14:05:15.653Z"}
+{"level":"error","message":"unconnected","timestamp":"2017-07-10T14:07:25.297Z"}
+{"level":"info","message":"Server Started at port no 4200","timestamp":"2017-07-10T14:07:25.299Z"}
+{"level":"error","message":"unconnected","timestamp":"2017-07-10T14:07:37.248Z"}
+{"level":"info","message":"Server Started at port no 4200","timestamp":"2017-07-10T14:07:37.249Z"}
+{"level":"error","message":"unconnected","timestamp":"2017-07-10T14:07:53.204Z"}
+{"level":"info","message":"Server Started at port no 4200","timestamp":"2017-07-10T14:07:53.205Z"}
+{"level":"error","message":"unconnected","timestamp":"2017-07-10T14:08:17.641Z"}
+{"level":"info","message":"Server Started at port no 4200","timestamp":"2017-07-10T14:08:17.642Z"}
+{"level":"error","message":"unconnected","timestamp":"2017-07-10T14:10:03.787Z"}
+{"level":"info","message":"Server Started at port no 4200","timestamp":"2017-07-10T14:10:03.788Z"}
+{"level":"error","message":"unconnected","timestamp":"2017-07-10T14:10:27.005Z"}
+{"level":"info","message":"Server Started at port no 4200","timestamp":"2017-07-10T14:10:27.006Z"}
+{"level":"error","message":"unconnected","timestamp":"2017-07-10T14:11:05.948Z"}
+{"level":"info","message":"Server Started at port no 4200","timestamp":"2017-07-10T14:11:05.949Z"}
+{"level":"error","message":"unconnected","timestamp":"2017-07-10T14:11:37.960Z"}
+{"level":"info","message":"Server Started at port no 4200","timestamp":"2017-07-10T14:11:37.961Z"}
+{"level":"error","message":"unconnected","timestamp":"2017-07-10T14:15:32.421Z"}
+{"level":"info","message":"Server Started at port no 4200","timestamp":"2017-07-10T14:15:32.422Z"}
+{"level":"error","message":"unconnected","timestamp":"2017-07-10T14:17:42.799Z"}
+{"level":"info","message":"Server Started at port no 4200","timestamp":"2017-07-10T14:17:42.800Z"}
+{"level":"error","message":"unconnected","timestamp":"2017-07-10T14:25:42.274Z"}
+{"level":"info","message":"Server Started at port no 4200","timestamp":"2017-07-10T14:25:42.276Z"}
+{"level":"error","message":"unconnected","timestamp":"2017-07-10T14:25:45.254Z"}
+{"level":"info","message":"Server Started at port no 4200","timestamp":"2017-07-10T14:25:45.255Z"}
+{"level":"error","message":"unconnected","timestamp":"2017-07-11T03:23:08.692Z"}
+{"level":"info","message":"Server Started at port no 4200","timestamp":"2017-07-11T03:23:08.694Z"}
+{"level":"error","message":"unconnected","timestamp":"2017-07-11T03:24:23.798Z"}
+{"level":"info","message":"Server Started at port no 4200","timestamp":"2017-07-11T03:24:23.799Z"}
+{"level":"error","message":"unconnected","timestamp":"2017-07-11T03:25:41.978Z"}
+{"level":"info","message":"Server Started at port no 4200","timestamp":"2017-07-11T03:25:41.979Z"}
+{"level":"error","message":"unconnected","timestamp":"2017-07-11T03:27:37.857Z"}
+{"level":"info","message":"Server Started at port no 4200","timestamp":"2017-07-11T03:27:37.858Z"}
+{"level":"error","message":"unconnected","timestamp":"2017-07-11T03:42:09.178Z"}
+{"level":"info","message":"Server Started at port no 4200","timestamp":"2017-07-11T03:42:09.179Z"}
+{"level":"error","message":"unconnected","timestamp":"2017-07-11T03:42:14.194Z"}
+{"level":"info","message":"Server Started at port no 4200","timestamp":"2017-07-11T03:42:14.195Z"}
+{"level":"error","message":"unconnected","timestamp":"2017-07-11T03:42:42.910Z"}
+{"level":"info","message":"Server Started at port no 4200","timestamp":"2017-07-11T03:42:42.911Z"}
+{"level":"error","message":"unconnected","timestamp":"2017-07-11T03:45:01.739Z"}
+{"level":"info","message":"Server Started at port no 4200","timestamp":"2017-07-11T03:45:01.740Z"}
+{"level":"error","message":"unconnected","timestamp":"2017-07-11T03:45:10.517Z"}
+{"level":"info","message":"Server Started at port no 4200","timestamp":"2017-07-11T03:45:10.518Z"}
+{"level":"error","message":"unconnected","timestamp":"2017-07-11T03:48:16.262Z"}
+{"level":"info","message":"Server Started at port no 4200","timestamp":"2017-07-11T03:48:16.263Z"}
+{"level":"error","message":"unconnected","timestamp":"2017-07-11T03:53:08.827Z"}
+{"level":"info","message":"Server Started at port no 4200","timestamp":"2017-07-11T03:53:08.828Z"}
+{"level":"error","message":"unconnected","timestamp":"2017-07-11T03:54:09.330Z"}
+{"level":"info","message":"Server Started at port no 4200","timestamp":"2017-07-11T03:54:09.331Z"}
+{"level":"error","message":"unconnected","timestamp":"2017-07-11T03:57:32.275Z"}
+{"level":"info","message":"Server Started at port no 4200","timestamp":"2017-07-11T03:57:32.276Z"}
+{"level":"error","message":"unconnected","timestamp":"2017-07-11T03:59:21.807Z"}
+{"level":"info","message":"Server Started at port no 4200","timestamp":"2017-07-11T03:59:21.808Z"}
+{"level":"error","message":"unconnected","timestamp":"2017-07-11T03:59:31.586Z"}
+{"level":"info","message":"Server Started at port no 4200","timestamp":"2017-07-11T03:59:31.587Z"}
+{"level":"error","message":"unconnected","timestamp":"2017-07-11T03:59:58.735Z"}
+{"level":"info","message":"Server Started at port no 4200","timestamp":"2017-07-11T03:59:58.736Z"}
+{"level":"error","message":"unconnected","timestamp":"2017-07-11T04:01:16.358Z"}
+{"level":"info","message":"Server Started at port no 4200","timestamp":"2017-07-11T04:01:16.359Z"}
+{"level":"error","message":"unconnected","timestamp":"2017-07-11T04:01:58.850Z"}
+{"level":"info","message":"Server Started at port no 4200","timestamp":"2017-07-11T04:01:58.851Z"}
+{"level":"error","message":"unconnected","timestamp":"2017-07-11T04:04:24.087Z"}
+{"level":"info","message":"Server Started at port no 4200","timestamp":"2017-07-11T04:04:24.088Z"}
+{"level":"error","message":"unconnected","timestamp":"2017-07-11T04:06:59.962Z"}
+{"level":"info","message":"Server Started at port no 4200","timestamp":"2017-07-11T04:06:59.963Z"}
+{"level":"error","message":"unconnected","timestamp":"2017-07-11T04:07:35.608Z"}
+{"level":"info","message":"Server Started at port no 4200","timestamp":"2017-07-11T04:07:35.609Z"}
+{"level":"error","message":"unconnected","timestamp":"2017-07-11T04:15:19.689Z"}
+{"level":"info","message":"Server Started at port no 4200","timestamp":"2017-07-11T04:15:19.690Z"}
+{"level":"error","message":"unconnected","timestamp":"2017-07-11T04:18:10.776Z"}
+{"level":"info","message":"Server Started at port no 4200","timestamp":"2017-07-11T04:18:10.777Z"}
+{"level":"error","message":"unconnected","timestamp":"2017-07-11T04:25:34.580Z"}
+{"level":"info","message":"Server Started at port no 4200","timestamp":"2017-07-11T04:25:34.582Z"}
+{"level":"error","message":"unconnected","timestamp":"2017-07-11T04:25:57.604Z"}
+{"level":"info","message":"Server Started at port no 4200","timestamp":"2017-07-11T04:25:57.605Z"}
+{"level":"error","message":"unconnected","timestamp":"2017-07-11T04:33:34.598Z"}
+{"level":"info","message":"Server Started at port no 4200","timestamp":"2017-07-11T04:33:34.599Z"}
+{"level":"error","message":"unconnected","timestamp":"2017-07-11T04:43:10.688Z"}
+{"level":"info","message":"Server Started at port no 4200","timestamp":"2017-07-11T04:43:10.689Z"}
+{"level":"error","message":"unconnected","timestamp":"2017-07-11T04:58:42.007Z"}
+{"level":"info","message":"Server Started at port no 4200","timestamp":"2017-07-11T04:58:42.008Z"}
+{"level":"error","message":"unconnected","timestamp":"2017-07-11T05:06:08.822Z"}
+{"level":"info","message":"Server Started at port no 4200","timestamp":"2017-07-11T05:06:08.823Z"}
+{"level":"error","message":"unconnected","timestamp":"2017-07-11T09:15:08.004Z"}
+{"level":"info","message":"Server Started at port no 4200","timestamp":"2017-07-11T09:15:08.005Z"}
+{"level":"error","message":"unconnected","timestamp":"2017-07-11T09:17:12.665Z"}
+{"level":"info","message":"Server Started at port no 4200","timestamp":"2017-07-11T09:17:12.666Z"}
+{"level":"error","message":"unconnected","timestamp":"2017-07-11T09:18:27.749Z"}
+{"level":"info","message":"Server Started at port no 4200","timestamp":"2017-07-11T09:18:27.750Z"}
+{"level":"error","message":"unconnected","timestamp":"2017-07-11T09:19:31.048Z"}
+{"level":"info","message":"Server Started at port no 4200","timestamp":"2017-07-11T09:19:31.049Z"}
+{"level":"error","message":"unconnected","timestamp":"2017-07-11T09:21:53.913Z"}
+{"level":"info","message":"Server Started at port no 4200","timestamp":"2017-07-11T09:21:53.914Z"}
+{"level":"error","message":"unconnected","timestamp":"2017-07-11T09:27:34.102Z"}
+{"level":"info","message":"Server Started at port no 4200","timestamp":"2017-07-11T09:27:34.103Z"}
+{"level":"error","message":"unconnected","timestamp":"2017-07-11T09:31:31.300Z"}
+{"level":"info","message":"Server Started at port no 4200","timestamp":"2017-07-11T09:31:31.301Z"}
+{"level":"error","message":"unconnected","timestamp":"2017-07-11T10:36:43.659Z"}
+{"level":"info","message":"Server Started at port no 4200","timestamp":"2017-07-11T10:36:43.660Z"}
+{"level":"error","message":"unconnected","timestamp":"2017-07-11T10:44:11.674Z"}
+{"level":"info","message":"Server Started at port no 4200","timestamp":"2017-07-11T10:44:11.675Z"}
+{"level":"error","message":"unconnected","timestamp":"2017-07-11T11:01:55.157Z"}
+{"level":"info","message":"Server Started at port no 4200","timestamp":"2017-07-11T11:01:55.158Z"}
+{"level":"error","message":"unconnected","timestamp":"2017-07-11T14:24:29.912Z"}
+{"level":"info","message":"Server Started at port no 4200","timestamp":"2017-07-11T14:24:29.913Z"}

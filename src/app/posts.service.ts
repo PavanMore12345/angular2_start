@@ -17,9 +17,10 @@ export class PostsService {
       .map(res => res.json());
       //console.log(res);
   }
-  signOut() {
-    return this.http.post('/logout')
-      .map(res => res.json());
-      //console.log(res);
-  }
+  // signOut() {
+  //     console.log("signout");
+  //   return this.http.post('/logout',"")
+  //     .map(res => res.json());
+  //     console.log(res);
+  // }
 }

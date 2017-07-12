@@ -1,0 +1,10 @@
+#wishlist:hover
+{
+    background-color: #13CDFF !important;
+    color: white !important;
+}
+#remove:hover
+{
+    background-color: indianred !important;
+    color: white !important;
+}

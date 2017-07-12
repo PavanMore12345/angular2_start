@@ -1,3 +1,4 @@
+
 <nav class="navbar navbar-inverse navbar-fixed-top">
   <div class="container-fluid">
     <div class="navbar-header">
@@ -39,11 +40,14 @@
     <small style="margin-top:10px"><strong>camera:</strong>{{data.specs.camera}}</small><br>
     <small style="margin-top:10px" ><strong>company:</strong>{{data.specs.manufacturer}}</small><br>
     <small style="margin-top:10px"><strong>os:</strong>{{data.specs.os}}</small><br>
-    <small style="margin-top:10px"><strong>storage:</strong>{{data.specs.storage}}</small>
+    <small style="margin-top:10px"><strong>storage:</strong>{{data.specs.storage}}</small><br>
+<!-- <a [routerLink]="['/mobileinfo', data.id]"> -->
+    <button type="button" (click)="mobileInfo(data)"  class="btn btn-primary">buy</button>
 </div>
 </div>
 </div>
 </div>
+
 <!-- <div class="checkbox" *ngFor="let label of mobileData">
   <div class="col-sm-4">
     <label>

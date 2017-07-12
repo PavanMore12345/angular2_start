@@ -10,12 +10,14 @@ import { FormsModule } from '@angular/forms';
 import { RegisterComponent } from './register/register.component';
 import { PostsService } from './posts.service';
 import { DashboardComponent } from './dashboard/dashboard.component';
+import { MobileinfoComponent } from './mobileinfo/mobileinfo.component';
 
 //
 const appRoutes : Routes = [
   { path : '' , component : HomeComponent },
   { path : 'register' , component : RegisterComponent },
-  { path:'dashboard',  component:DashboardComponent}
+  { path:'dashboard',  component:DashboardComponent},
+  { path:'mobileinfo',  component:MobileinfoComponent}
 ];
 
 @NgModule({
@@ -24,6 +26,7 @@ const appRoutes : Routes = [
     HomeComponent,
     RegisterComponent,
     DashboardComponent,
+    MobileinfoComponent,
     //PostsComponent
   ],
   imports: [

@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit,Output,EventEmitter } from '@angular/core';
 import { PostsService } from '../posts.service';
 import {RouterModule, Routes, Router} from '@angular/router';
 import {Http, Response, Request, RequestMethod} from '@angular/http';
@@ -10,6 +10,8 @@ import 'rxjs/add/operator/map';
 })
 export class DashboardComponent implements OnInit {
  //value="manufacturer";
+ //@Input() result:any="";
+ @Output() clicked=new EventEmitter<any>();
  mobileData=[{id:'manufacturer',data:['samsung','sony','apple','htc','nokia']},
  {id:'storage',data:['16','32']},{id:'os',data:['windows','android','ios']},
  {id:'camera',data:['5','8','13','16']}];
@@ -21,7 +23,7 @@ export class DashboardComponent implements OnInit {
              (res: any) => {
              //     this.load = false;
                  let data =res.json();
-                 console.log("data",data.data[0].image);
+                // console.log("data",data.data[0].image);
                  this.data1= data.data;
                  console.log(this.data1);
              //     if (data.data == "User already exist!") {
@@ -56,5 +58,13 @@ console.log(data);
 this.data1=this.data1.filter(res=>res.name.startsWith());
 console.log("res",this.data1);
 }
-
+mobileInfo(searchTerm:any)
+{
+    //(clicked)="onClicked($event)"
+    console.log(searchTerm);
+//this.clicked.emit(searchTerm);
+searchTerm=JSON.stringify(searchTerm);
+localStorage.setItem("mobile",searchTerm);
+this.router.navigate(['/mobileinfo']);
+}
 }

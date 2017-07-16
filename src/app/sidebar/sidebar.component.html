@@ -1,0 +1,12 @@
+<div id=sidebar>
+<div *ngFor="let value of mobileData">
+<form>
+    <h5>{{value.id}}</h5>
+<div class="checkbox" *ngFor="let data of value.data">
+  <label><input type="checkbox" (click)="onClick(value.id,data)" value=""  >{{data}}</label>
+</div>
+</form>
+{{data}}
+</div>
+<button type="button" class="btn btn-primary">Clear All</button>
+</div>

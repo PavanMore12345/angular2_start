@@ -1,15 +1,28 @@
-
- <div class="row">
-     <img src="{{ data.image.large }}" style="margin:auto;display:block"/>
-     <div class="col-md-6">
-         <h2>Description</h2>
+<app-navbar></app-navbar>
+<div class="row" style="margin:20px">
+    <div class="col-lg-2 col-md-2 col-sm-2"></div>
+    <h1 style="margin-top:55px;text-align:center;"><span style="background-color:#eff0f1;">{{data.name}}</span></h1>
+ <div class="col-md-6">
+<div class="image">
+     <img src="{{ data.image.large }}" style="margin:auto;display:block;width:340px;height:340px;margin-top:52px"/>
+        <h4>Ratings</h4>
+        <div *ngFor=" let item of items" style="display:inline">
+        <img src="https://gomobile.herokuapp.com/assets/star_PNG1597.png" style="width:30px;height:30px;"/>
+        </div>
+        <h4>Out of 5</h4>
+        <!-- <img src="https://gomobile.herokuapp.com/assets/blackStar.png" style="width:30px;height:30px;"/> -->
+        <!-- <img src="https://gomobile.herokuapp.com/assets/blackStar.png" style="width:30px;height:30px;"/> -->
+</div>
+</div>
+<div class="col-md-6" >
+         <h3>Description</h3>
          <hr>
          <h4>{{data.description}}</h4>
-         <button type="button" id="wishlist" class="btn btn-block" style=" background-color:white;color:#13CDFF;width:100%;height:30px;border:aqua;margin-top:20px;border:1px solid #13CDFF;">wishlist</button>
-         <button type="button" id="remove" style="color:indianred;background-color:white;;width:100%;height:30px;border:aqua;margin-top:20px;border:1px solid indianred">Remove from wishlist</button>
- </div>
- <div class="col-md-6">
-     <h2 style="text-align:left;float:left;">{{data.name}}</h2>
+         <div style="display:inline">
+         <button type="button" id="wishlist"style=" background-color:white;color:#13CDFF;width:48%;height:30px;border:aqua;margin-top:20px;border:1px solid #13CDFF;">Add to wishlist</button>
+         <button type="button" id="remove" style="color:indianred;background-color:white;;width:48%;height:30px;border:aqua;margin-top:20px;border:1px solid indianred">Remove from wishlist</button>
+     </div>
+     <h3 style="text-align:left;float:left;">{{data.name}}</h3>
      <div class="money">
      <h2 style="text-align:right;float:right;">{{data.price}}</h2>
      <img src="https://gomobile.herokuapp.com/assets/money-clipart-aceKxL9Ei.png"
@@ -23,6 +36,7 @@
      <tr><td><h4>os:</h4></td><td><h4>{{data.specs.os}}</h4></td></tr>
      <tr><td><h4>storage:</h4></td><td><h4>{{data.specs.storage}}</h4></td></tr>
  </table>
- <button type="button" style="background-color:yellow;width:100%;height:30px;border:aqua">buy</button>
+ <button type="button" style="background-color:yellow;width:100%;height:30px;border:aqua;color:black">buy</button>
  </div>
- </div>
+ <div class="col-lg-2 col-md-2 col-sm-2"></div>
+</div>

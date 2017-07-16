@@ -1,39 +1,12 @@
 
-<nav class="navbar navbar-inverse navbar-fixed-top">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-    </div>
-    <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav navbar-right">
-        <li><a (click)="logout()" ><span class="glyphicon glyphicon-user"></span> Logout</a></li>
-        <li><a href="https://github.com/PavanMore12345/angular2_start" ><span class="glyphicon glyphicon-log-in"></span> gihub</a></li>
-      </ul>
-    </div>
-  </div>
-</nav>
+<app-navbar></app-navbar>
 <div class="col-sm-2 col-sm-2 col-sm-2" >
-    <div id=sidebar>
- <div *ngFor="let value of mobileData">
-    <form>
-        <h5>{{value.id}}</h5>
-    <div class="checkbox" *ngFor="let data of value.data">
-      <label><input type="checkbox" (click)="getData(data)" value=""  >{{data}}</label>
-    </div>
-  </form>
-  {{data}}
-</div>
-<button type="button" class="btn btn-primary">Select All</button>
-</div>
+ <app-sidebar  (clicked)="onClicked($event)"></app-sidebar>
 </div>
 <!-- <div class="row"> -->
 <div class="col-sm-9 col-md-9 col-lg-9" style="margin-top:60px;">
-<div class="col-xm-12 col-sm-6 col-md-4 col-lg-4"  *ngFor="let data of data1">
-    <div class="image">
+<div class="col-xm-12 col-sm-6 col-md-4 col-lg-4"  *ngFor="let data of data1 | filterdata:term ">
+    <div class="image" id="img22">
 <img style="height:300px;margin-top:10px;"src="{{ data.image.small }}"/>
 <div class="overlay">
     <h2>{{data.name}}</h2>
@@ -47,12 +20,3 @@
 </div>
 </div>
 </div>
-
-<!-- <div class="checkbox" *ngFor="let label of mobileData">
-  <div class="col-sm-4">
-    <label>
-      <input type="checkbox" value="{{label.Id}}" (change)="checkboxes[$event.target.getAttribute('value')]=$event.target.checked">
-        {{ label.Name }}</label>
-  </div>
-</div> -->
-<!-- </div> -->

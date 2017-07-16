@@ -1,0 +1,10 @@
+#sidebar{
+    border: 1px;
+    border-radius: 3px;
+    box-shadow: 1px 0px 2px grey;
+    margin-top: 60px;
+    padding: 10px;
+    overflow-wrap: break-word;
+    width:150px;
+    float: left;
+}

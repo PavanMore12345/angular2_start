@@ -7,4 +7,12 @@
     overflow-wrap: break-word;
     width:150px;
     float: left;
+    height:100%;
+}
+@media(max-width: 500px) {
+    #sidebar
+    {
+        width:105px;
+    }
+
 }

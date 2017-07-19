@@ -5,16 +5,19 @@ import { Pipe, PipeTransform } from '@angular/core';
 })
 export class SortByPipe implements PipeTransform {
 
-    transform(array: Array<string>, args: string): Array<string> {
-      array.sort((a: any, b: any) => {
-  	    if ( a[args] < b[args] ){
+    transform(data1: any, args:any): any {
+        //console.log(array)
+        console.log("args",args)
+        console.log("data1",data1);
+      data1.sort((a: any, b: any) => {
+  	    if ( a.name < b.name ){
   	    	return -1;
-  	    }else if( a[args] > b[args] ){
+  	    }else if( a.name > b.name ){
   	        return 1;
   	    }else{
   	    	return 0;
   	    }
       });
-      return array;
+      return data1;
     }
   }

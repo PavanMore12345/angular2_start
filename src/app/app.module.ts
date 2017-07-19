@@ -36,8 +36,8 @@ const appRoutes : Routes = [
     NavbarComponent,
     FilterdataPipe,
     SidebarComponent,
-    SortByPipe,
-    //PostsComponent
+    SortByPipe
+    //,PostsComponent
   ],
   imports: [
     CommonModule,
@@ -48,7 +48,7 @@ const appRoutes : Routes = [
     ToastModule.forRoot(),
     RouterModule.forRoot(appRoutes, { useHash: true})
   ],
-  providers: [PostsService,FilterdataPipe],
+  providers: [PostsService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

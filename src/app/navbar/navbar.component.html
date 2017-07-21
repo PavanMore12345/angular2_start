@@ -1,3 +1,4 @@
+ <!-- <app-mobileinfo  (clicked)="onClicked($event)"></app-mobileinfo> -->
 <nav class="navbar navbar-inverse navbar-fixed-top">
   <div class="container-fluid">
     <div class="navbar-header">
@@ -9,6 +10,7 @@
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
+          <li><a (click)="addcard()"><span class="glyphicon glyphicon-shopping-cart"></span>cart({{count}})</a></li>
         <li><a (click)="logout()" ><span class="glyphicon glyphicon-user"></span> Logout</a></li>
         <li><a href="https://github.com/PavanMore12345/angular2_start" ><span class="glyphicon glyphicon-log-in"></span> gihub</a></li>
       </ul>

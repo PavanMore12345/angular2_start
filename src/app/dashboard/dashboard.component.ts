@@ -18,12 +18,6 @@ export class DashboardComponent implements OnInit {
   newdata:any[];
   //arrayData:any;
   arryd:any;
-  head;
-  dont;
-    arrayData=new Array;
-    firstData=new Array;
-    secondData=new Array;
-    thirdData=new Array;
   // arr = new Array("orange", "mango", "banana", "sugar");
   //sorted;
   term = {manufacturer:[],storage:[],os:[],camera:[]};
@@ -33,15 +27,14 @@ export class DashboardComponent implements OnInit {
   ngOnInit() {
     //  this.term="Fsdfsdf";
     this.http.post('https://choco-lava.herokuapp.com/api/login', "").subscribe(
-      (res: any) => {
-        //     this.load = false;
+      (res: any) =>
+      {
         let data = res.json();
         console.log(data);
-        // console.log("data",data.data[0].image);
         this.data1 = data.data;
         console.log("data1", this.data1);
-
-        this.data1.sort(function(name1, name2) {
+        this.data1.sort(function(name1, name2)
+        {
           if (name1.name < name2.name) {
             return -1;
           } else if (name1.name > name2.name) {
@@ -52,8 +45,6 @@ export class DashboardComponent implements OnInit {
         });
 
       })
-    // let sorted=this.data1.sort()
-    // console.log("sorted",sorted);
   }
 
 
@@ -90,25 +81,23 @@ this.arryd = this.newdata.filter(function(mobileObj){
     osFlag = (self.term.os.indexOf(mobileObj.specs.os)>-1)
 return (manufacturerFlag&&storageFlag&&cameraFlag&&osFlag);
 });
+this.arryd.sort(function(name1, name2)
+{
+  if (name1.name < name2.name) {
+    return -1;
+  } else if (name1.name > name2.name) {
+    return 1;
+  } else {
+    return 0;
+  }
+});
 
       console.log(this.arryd);
       this.newdata = this.arryd;
       console.log(this.newdata);
   }
-
-
-  // getData(data)
-  // {
-  // console.log(data);
-  // //console.log(this.data1);
-  // this.data1=this.data1.filter(res=>res.name.startsWith(data));
-  // this.term=data;
-  // console.log("res",this.data1);
-  // }
-  mobileInfo(searchTerm: any) {
-    //(clicked)="onClicked($event)"
-    //console.log(searchTerm);
-    //this.clicked.emit(searchTerm);
+  mobileInfo(searchTerm: any)
+  {
     searchTerm = JSON.stringify(searchTerm);
     localStorage.setItem("mobile", searchTerm);
     this.router.navigate(['/mobileinfo']);

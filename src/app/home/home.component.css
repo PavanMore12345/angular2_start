@@ -1,15 +1,12 @@
 .form1
 	{
     background-color:#F0F0EF;
-    /*border-radius: 25px;*/
-		width:30% !important;
-        width: auto;
+		width:30%;
 		height:auto;
 		padding-left:20px;
 		padding-top:20px;
 		padding-right:20px;
 		padding-bottom:20px;
-		/*background-color: gray;*/
 	margin: 0 auto;
 	margin-top:10%
 	}
@@ -26,7 +23,14 @@
     text-align: center;
     padding-top: 20px;
 }
-/*input:focus {
+@media(max-width: 650px) {
+    .form1
+    {
+        width:200px;
+		height:270px;
+    }
+
+}/*input:focus {
   box-shadow: 0 0 10px rgba(255, 123, 0, 1);
   /*padding: 10px;
   margin: 10px;*/

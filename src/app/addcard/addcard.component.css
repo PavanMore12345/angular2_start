@@ -1,0 +1,28 @@
+#card
+{
+    margin-top: 50px;
+    border: 1px solid black;
+    height: 400px;
+    width: 400px;
+    margin: auto;
+    display: block;
+    box-shadow: 1px 0px 2px grey
+}
+#name
+{
+    background-color: black;
+    color:white;
+}
+#cost
+{
+    background-color: black;
+    color:white;
+}
+#add
+{
+    padding-left: 20px;
+}
+#table
+{
+    margin-left: 45px;
+}

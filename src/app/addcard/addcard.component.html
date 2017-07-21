@@ -1,0 +1,22 @@
+<app-navbar></app-navbar>
+<div class="row" style="margin-top:30px">
+    <div  *ngFor="let data of data1">
+    <div id="card" >
+      <h3 id="name">Name:{{data.name}}
+       <span class="glyphicon glyphicon-remove" data-toggle="tooltip" title="remove from cart" style="float:right" (click)="remove(data)"></span></h3>
+      <img src="{{ data.image.small }}" style="margin:auto;height:200px;width:150px;display:block;"/>
+      <table id="table" width="400px">
+     <tr> <td><h4>name:</h4></td><td><h4>{{data.name}}</h4></td></tr>
+     <tr> <td><h4>price:</h4></td><td><h4>${{data.price}}</h4></td></tr>
+     <tr> <td><h4>Ratings:</h4></td><td><h4><div *ngFor=" let item of items" style="display:inline">
+     <img src="https://gomobile.herokuapp.com/assets/star_PNG1597.png" style="width:30px;height:30px;"/>
+     </div></h4></td></tr>
+ </table>
+      <!-- <h4 style="float:left">price:{{data.price}}</h4>
+      <h4 style="float:right">Ratings:{{data.rating}}</h4> -->
+      <!-- <button type="button" >removefromcart</button> -->
+  </div>
+  <br>
+  </div>
+  <h1 style="text-align:center;"><span id="cost">total cost:<span id="add">${{add}}</span></span></h1>
+</div>

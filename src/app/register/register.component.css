@@ -25,3 +25,9 @@
         display: block;
         padding-top: 20px;
     }
+	@media(max-width: 650px) {
+	    .form1
+	    {
+	        width:200px;
+	    }
+}

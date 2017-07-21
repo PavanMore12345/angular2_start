@@ -13,17 +13,19 @@ import { PostsService } from './posts.service';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { MobileinfoComponent } from './mobileinfo/mobileinfo.component';
 import { NavbarComponent } from './navbar/navbar.component';
-  import {ToastModule} from 'ng2-toastr/ng2-toastr';
+import {ToastModule} from 'ng2-toastr/ng2-toastr';
 import { FilterdataPipe } from './filterdata.pipe';
 import { SidebarComponent } from './sidebar/sidebar.component';
 import { SortByPipe } from './sort-by.pipe';
+import { AddcardComponent } from './addcard/addcard.component';
   // import {BrowserAnimationsModule} from '@angular/platform-browser/animations'
 //
 const appRoutes : Routes = [
   { path : '' , component : HomeComponent },
   { path : 'register' , component : RegisterComponent },
   { path:'dashboard',  component:DashboardComponent},
-  { path:'mobileinfo',  component:MobileinfoComponent}
+  { path:'mobileinfo',  component:MobileinfoComponent},
+  { path:'addcard',  component:AddcardComponent}
 ];
 
 @NgModule({
@@ -36,7 +38,8 @@ const appRoutes : Routes = [
     NavbarComponent,
     FilterdataPipe,
     SidebarComponent,
-    SortByPipe
+    SortByPipe,
+    AddcardComponent
     //,PostsComponent
   ],
   imports: [
@@ -48,7 +51,7 @@ const appRoutes : Routes = [
     ToastModule.forRoot(),
     RouterModule.forRoot(appRoutes, { useHash: true})
   ],
-  providers: [PostsService],
+  providers: [PostsService,FilterdataPipe,SortByPipe],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

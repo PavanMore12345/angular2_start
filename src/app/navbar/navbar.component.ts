@@ -9,12 +9,13 @@ import 'rxjs/add/operator/map';
   styleUrls: ['./navbar.component.css']
 })
 export class NavbarComponent implements OnInit {
-
+count;
   constructor(public http: Http, private router: Router) { }
 
   ngOnInit() {
+     this.count=JSON.parse(localStorage.getItem("count"));
+     console.log(this.count);
   }
-
   logout()
   {
       this.http.post('/logout', "").subscribe(
@@ -29,5 +30,9 @@ export class NavbarComponent implements OnInit {
               this.router.navigate(['/dashboard']);
               }
                })
+  }
+  addcard()
+  {
+       this.router.navigate(['/addcard']);
   }
 }

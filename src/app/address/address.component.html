@@ -1,0 +1,35 @@
+<app-navbar></app-navbar>
+<form class="form1" name="form" #userform="ngForm" novalidate (ngSubmit)="addressinfo(userform.value)">
+    <h2 class="firstname">Register</h2>
+    <div class="form-group">
+        <label for="username">Firstname:</label>
+        <input type="text" class="form-control" placeholder="firstname" name="firstname" required [(ngModel)]="user.firstname" #firstname="ngModel" required minlength="5"  pattern="[a-zA-Z]*"/>
+        <small [hidden]="firstname.valid || (firstname.pristine && !userform.submitted)" class="text-danger">
+       firstname is required(minimum 5 character and only alphabets)
+        </small>
+    </div>
+    <div class="form-group">
+        <label for="username">Lastname:</label>
+        <input type="text" name="lastname" placeholder="lastname" class="form-control" required [(ngModel)]="user.lastname" #lastname="ngModel" minlength="5" required  pattern="[a-zA-Z]*"  />
+        <small [hidden]="lastname.valid || (lastname.pristine && !userform.submitted)" class="text-danger">
+       lastname is minimum 5 character and only alphabets.
+        </small>
+    </div>
+    <div class="form-group">
+        <label for="username">email:</label>
+        <input type="email" name="email" placeholder="email" class="form-control"required [(ngModel)]="user.email" #email="ngModel" required pattern="[^@\s]+@[^@\s]+\.[^@\s]+"/>
+        <small [hidden]="email.valid || (email.pristine && !userform.submitted)" class="text-danger">
+       email is required.
+        </small>
+    </div>
+    <div class="form-group">
+        <label for="password">Password:</label>
+        <input type="password" class="form-control" placeholder="password" name="password" [(ngModel)]="user.password" #password="ngModel" required minlength="8">
+        <small [hidden]="password.valid || (password.pristine && !password.submitted)" class="text-danger">
+       password is minimum 8 character.
+        </small>
+    </div>
+    <div class="form-group" id="register">
+        <button class="btn btn-primary">Register</button>
+    </div>
+</form>

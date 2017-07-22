@@ -18,6 +18,7 @@ import { FilterdataPipe } from './filterdata.pipe';
 import { SidebarComponent } from './sidebar/sidebar.component';
 import { SortByPipe } from './sort-by.pipe';
 import { AddcardComponent } from './addcard/addcard.component';
+import { AddressComponent } from './address/address.component';
   // import {BrowserAnimationsModule} from '@angular/platform-browser/animations'
 //
 const appRoutes : Routes = [
@@ -25,7 +26,8 @@ const appRoutes : Routes = [
   { path : 'register' , component : RegisterComponent },
   { path:'dashboard',  component:DashboardComponent},
   { path:'mobileinfo',  component:MobileinfoComponent},
-  { path:'addcard',  component:AddcardComponent}
+  { path:'addcard',  component:AddcardComponent},
+  { path:'address',  component:AddressComponent}
 ];
 
 @NgModule({
@@ -39,7 +41,8 @@ const appRoutes : Routes = [
     FilterdataPipe,
     SidebarComponent,
     SortByPipe,
-    AddcardComponent
+    AddcardComponent,
+    AddressComponent
     //,PostsComponent
   ],
   imports: [

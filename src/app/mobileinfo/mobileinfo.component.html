@@ -4,7 +4,9 @@
     <h1 style="margin-top:55px;text-align:center;"><span style="background-color:#eff0f1;">{{data.name}}</span></h1>
  <div class="col-md-6">
 <div class="image">
-     <img src="{{ data.image.large }}" style="margin:auto;display:block;width:340px;height:340px;margin-top:52px"/>
+    <div class="zoomin">
+     <img src="{{ data.image.large }}" style="margin:auto;display:block;margin-top:52px"/>
+</div>
         <h4>Ratings</h4>
         <div *ngFor=" let item of items" style="display:inline">
         <img src="https://gomobile.herokuapp.com/assets/star_PNG1597.png" style="width:30px;height:30px;"/>

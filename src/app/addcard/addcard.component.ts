@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {RouterModule, Routes, Router} from '@angular/router';
 
 @Component({
   selector: 'app-addcard',
@@ -10,8 +11,12 @@ data1;
 add=0;
 mobiledata;
 i;
+item;
+itemname;
 items: number[]=[];
-  constructor() { }
+total;
+delivery;
+  constructor(private router: Router) { }
 
   ngOnInit() {
       this.data1=JSON.parse(localStorage.getItem("addtocard"));
@@ -20,14 +25,23 @@ items: number[]=[];
        {
            this.add=this.add+data.price;
        }
-       for(let data of this.data1)
+       if(this.add>=1000)
        {
-       for(this.i=1;this.i<=data.rating;this.i++)
+           this.delivery=0;
+       }else
        {
-           this.items.push(this.i);
-           console.log(this.items);
+           this.delivery=40;
        }
-}
+       this.total=this.add+this.delivery;
+       this.item=JSON.parse(localStorage.getItem("count"));
+       if(this.item==1)
+       {
+           this.itemname="item";
+       }else
+       {
+           this.itemname="items"
+       }
+
   }
 remove(data)
 {
@@ -39,6 +53,49 @@ remove(data)
      var count=JSON.parse(localStorage.getItem("count"));
      --count;
     localStorage.setItem("count",JSON.stringify(count));
+    if(this.add>=1000)
+    {
+        this.delivery=0;
+    }else
+    {
+        this.delivery=40;
+    }
+     this.total=this.add+this.delivery;
+     this.item=JSON.parse(localStorage.getItem("count"));
+     if(this.item==1)
+     {
+         this.itemname="item";
+     }else
+     {
+         this.itemname="items"
+     }
+}
+placeorder()
+{
+    var phonepe;
+    console.log("placeorder");
+// if ((<HTMLInputElement>document.getElementById('emi')).checked) {
+//  phonepe = (<HTMLInputElement>document.getElementById('emi')).value;
+// console.log("phonepe",phonepe);
+// }
+if ((<HTMLInputElement>document.getElementById('cash')).checked) {
+ phonepe = (<HTMLInputElement>document.getElementById('cash')).value;
+console.log("phonepe",phonepe);
+}
+// if ((<HTMLInputElement>document.getElementById('netBanking')).checked) {
+//  phonepe = (<HTMLInputElement>document.getElementById('netBanking')).value;
+// console.log("phonepe",phonepe);
+// }
+// if ((<HTMLInputElement>document.getElementById('debit')).checked) {
+//  phonepe = (<HTMLInputElement>document.getElementById('debit')).value;
+// console.log("phonepe",phonepe);
+// }
+if(phonepe=="cashondelivery")
+{
+    console.log("adreess");
+    this.router.navigate(['/address']);
+}
+
 }
 
 }

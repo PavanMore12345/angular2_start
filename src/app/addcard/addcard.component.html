@@ -1,16 +1,15 @@
 <app-navbar></app-navbar>
 <div class="row" style="margin-top:30px">
+    <div class="col-md-6" style="margin-top:50px">
     <div  *ngFor="let data of data1">
     <div id="card" >
       <h3 id="name">Name:{{data.name}}
        <span class="glyphicon glyphicon-remove" data-toggle="tooltip" title="remove from cart" style="float:right" (click)="remove(data)"></span></h3>
       <img src="{{ data.image.small }}" style="margin:auto;height:200px;width:150px;display:block;"/>
-      <table id="table" width="400px">
+      <table id="mobiletable" width="400px">
      <tr> <td><h4>name:</h4></td><td><h4>{{data.name}}</h4></td></tr>
      <tr> <td><h4>price:</h4></td><td><h4>${{data.price}}</h4></td></tr>
-     <tr> <td><h4>Ratings:</h4></td><td><h4><div *ngFor=" let item of items" style="display:inline">
-     <img src="https://gomobile.herokuapp.com/assets/star_PNG1597.png" style="width:30px;height:30px;"/>
-     </div></h4></td></tr>
+      <tr> <td><h4>Ratings:</h4></td><td><h4>{{data.rating}}</h4></td></tr>
  </table>
       <!-- <h4 style="float:left">price:{{data.price}}</h4>
       <h4 style="float:right">Ratings:{{data.rating}}</h4> -->
@@ -18,5 +17,33 @@
   </div>
   <br>
   </div>
-  <h1 style="text-align:center;"><span id="cost">total cost:<span id="add">${{add}}</span></span></h1>
+  </div>
+  <div class="col-md-6" style="margin-top:50px" *ngIf="add">
+      <table width="400px" >
+  <!-- <h1 style="text-align:center;" *ngIf="add">
+<span >total cost:<span>${{add}}</span></span></h1> -->
+<tr><td><h3>price:({{item}} {{itemname}})</h3></td><td><h3>${{add}}</h3></td></tr>
+<tr><td><h3>delivery charge:</h3></td><td><h3>${{delivery}}</h3></td></tr>
+<tr><hr></tr>
+<tr><td><h3>Total cost:</h3></td><td><h3>${{total}}</h3></td></tr>
+</table>
+<br>
+<table width="90%" border="1">
+    <tr><td style="height:40px;background-color:#2874f0;color:white">payment options:</td></tr>
+    <tr><td style="height:40px"> <label class="radio-inline">
+      <input type="radio" id="debit" name="optradio" value="debit">credit/debit/ATM card
+    </label></td></tr>
+    <tr><td style="height:40px"> <label class="radio-inline">
+      <input type="radio" id="netBanking" value="netBanking" name="optradio">Net Banking
+    </label></td></tr>
+    <tr><td style="height:40px"> <label class="radio-inline">
+      <input type="radio" id="emi" value="emi" name="optradio">EMI
+    </label></td></tr>
+    <tr><td style="height:40px"> <label class="radio-inline">
+      <input type="radio" id="cash" value="cashondelivery" name="optradio">Cash on Delivery
+    </label></td></tr>
+</table>
+<br>
+<button type="button" (click)="placeorder()" style="background-color:#fb641b;margin:auto;display:block;" class="btn btn-primary">Place Order</button>
+</div>
 </div>

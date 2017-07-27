@@ -3,15 +3,15 @@ import { PostsService } from './posts.service';
 import {RouterModule, Routes, Router} from '@angular/router';
 import {Http, Response, Request, RequestMethod} from '@angular/http';
 import 'rxjs/add/operator/map';
-import { ToastsManager } from 'ng2-toastr/ng2-toastr';
+// import { ToastsManager } from 'ng2-toastr/ng2-toastr';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
 export class AppComponent implements OnInit{
-    constructor(private postsService: PostsService,public http: Http, private router: Router,public toastr: ToastsManager,vcr: ViewContainerRef){
-        this.toastr.setRootViewContainerRef(vcr);
+    constructor(private postsService: PostsService,public http: Http, private router: Router){
+
     }
   //title = 'app sdfsdfs!';
   ngOnInit() {

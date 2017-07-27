@@ -1,9 +1,10 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit,ViewContainerRef } from '@angular/core';
 import { PostsService } from '../posts.service';
 import {RouterModule, Routes, Router} from '@angular/router';
 import {Http, Response, Request, RequestMethod} from '@angular/http';
 import { FilterdataPipe } from '../filterdata.pipe'
 import { SortByPipe } from '../sort-by.pipe';
+import { ToastsManager } from 'ng2-toastr/ng2-toastr';
 import 'rxjs/add/operator/map';
 @Component({
   selector: 'app-dashboard',
@@ -16,6 +17,8 @@ export class DashboardComponent implements OnInit {
   //@Input() result:any="";
   data1;
   newdata:any[];
+  mobiledata;
+  nodata;
   //arrayData:any;
   arryd:any;
   // arr = new Array("orange", "mango", "banana", "sugar");
@@ -23,7 +26,10 @@ export class DashboardComponent implements OnInit {
   term = {manufacturer:[],storage:[],os:[],camera:[]};
   flag: any[] = [];
   //console.log(data1);
-  constructor(private postsService: PostsService, public http: Http, private router: Router) { }
+  constructor(private postsService: PostsService, public http: Http, private router: Router,private toastr: ToastsManager,
+		private _vcr: ViewContainerRef) {
+      this.toastr.setRootViewContainerRef(_vcr);
+         }
   ngOnInit() {
     //  this.term="Fsdfsdf";
     this.http.post('https://choco-lava.herokuapp.com/api/login', "").subscribe(
@@ -31,7 +37,10 @@ export class DashboardComponent implements OnInit {
       {
         let data = res.json();
         console.log(data);
-        this.data1 = data.data;
+        data=JSON.stringify(data);
+        localStorage.setItem("gomobile",data);
+        this.mobiledata = JSON.parse(localStorage.getItem("gomobile"));
+        this.data1 =this.mobiledata.data;
         console.log("data1", this.data1);
         this.data1.sort(function(name1, name2)
         {
@@ -45,11 +54,17 @@ export class DashboardComponent implements OnInit {
         });
 
       })
+      if(JSON.parse(localStorage.getItem("dashboard")))
+   {
+   this.toastr.success("Success", 'login success');
+   localStorage.setItem("dashboard", JSON.stringify(0));
+   }
   }
 
 
   onClicked(value: any)
   {
+
       //this.term[value.head].push(value.data);
      if(value=="clear")
      {
@@ -91,10 +106,10 @@ this.arryd.sort(function(name1, name2)
     return 0;
   }
 });
-
-      console.log(this.arryd);
+      console.log(this.arryd.length);
       this.newdata = this.arryd;
       console.log(this.newdata);
+
   }
   mobileInfo(searchTerm: any)
   {

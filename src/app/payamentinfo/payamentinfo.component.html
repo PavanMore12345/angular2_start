@@ -1,0 +1,53 @@
+<app-navbar></app-navbar>
+<div class="row" style="margin-top:50px;text-align:center;">
+    <h2>Personal data</h2>
+<div class="col-md-6"  >
+<table width="95%" cellpadding="5" cellspacing="5">
+    <tr>
+        <td><h4>FirstName:</h4></td>
+        <td><h4>{{userInfo.firstname}}</h4></td>
+    </tr>
+    <tr>
+        <td><h4>LastName:</h4></td>
+        <td><h4>{{userInfo.lastname}}</h4></td>
+    </tr>
+    <tr>
+        <td><h4>mobileNo:</h4></td>
+        <td><h4>{{userInfo.mobileNo}}</h4></td>
+    </tr>
+    <tr>
+        <td><h4>address:</h4></td>
+        <td><h4>{{userInfo.password}}</h4></td>
+    </tr>
+    <tr>
+        <td><h4>email:</h4></td>
+        <td><h4>{{userInfo.email}}</h4></td>
+    </tr>
+</table>
+</div>
+<div class="col-md-6" >
+    <table width="95%" cellpadding="5" cellspacing="5">
+        <tr>
+            <td><h4>TotalPayement:</h4></td>
+            <td><h4>{{totalpayment}}</h4></td>
+        </tr>
+        <tr>
+            <td><h4>PaymentMode:</h4></td>
+            <td><h4>cash on delivery</h4></td>
+        </tr>
+        <tr>
+            <td><h4></h4></td>
+            <td><h4></h4></td>
+        </tr>
+        <tr>
+            <td><h4></h4></td>
+            <td><h4></h4></td>
+        </tr>
+        <tr>
+            <td><h4></h4></td>
+            <td><h4></h4></td>
+        </tr>
+    </table>
+</div>
+<button type="button" (click)="confirm()" id="confirm" class="btn btn-primary">confirm order</button>
+ </div>

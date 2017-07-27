@@ -2,7 +2,8 @@ import { BrowserModule } from '@angular/platform-browser';
 //import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
 import { NgModule } from '@angular/core';
 // import{ FormGroup,FormControl} from '@angular/forms';
- import { CommonModule } from '@angular/common';
+// import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { CommonModule } from '@angular/common';
 import { HttpModule } from '@angular/http';
 import { RouterModule, Routes } from '@angular/router';
 import { AppComponent } from './app.component';
@@ -19,6 +20,9 @@ import { SidebarComponent } from './sidebar/sidebar.component';
 import { SortByPipe } from './sort-by.pipe';
 import { AddcardComponent } from './addcard/addcard.component';
 import { AddressComponent } from './address/address.component';
+import { PayamentinfoComponent } from './payamentinfo/payamentinfo.component';
+import { HistoryComponent } from './history/history.component';
+import {PopupModule} from 'ng2-opd-popup'
   // import {BrowserAnimationsModule} from '@angular/platform-browser/animations'
 //
 const appRoutes : Routes = [
@@ -27,7 +31,9 @@ const appRoutes : Routes = [
   { path:'dashboard',  component:DashboardComponent},
   { path:'mobileinfo',  component:MobileinfoComponent},
   { path:'addcard',  component:AddcardComponent},
-  { path:'address',  component:AddressComponent}
+  { path:'address',  component:AddressComponent},
+  { path:'payamentinfo',  component:PayamentinfoComponent},
+   { path:'history',  component:HistoryComponent},
 ];
 
 @NgModule({
@@ -42,16 +48,18 @@ const appRoutes : Routes = [
     SidebarComponent,
     SortByPipe,
     AddcardComponent,
-    AddressComponent
+    AddressComponent,
+    PayamentinfoComponent,
+    HistoryComponent
     //,PostsComponent
   ],
   imports: [
     CommonModule,
     BrowserModule,
-//    BrowserAnimationsModule,
     FormsModule,
     HttpModule,
     ToastModule.forRoot(),
+    PopupModule.forRoot(),
     RouterModule.forRoot(appRoutes, { useHash: true})
   ],
   providers: [PostsService,FilterdataPipe,SortByPipe],

@@ -1,6 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit,ViewContainerRef } from '@angular/core';
 import {RouterModule, Routes, Router} from '@angular/router';
-
+import { ToastsManager } from 'ng2-toastr/ng2-toastr';
 @Component({
   selector: 'app-addcard',
   templateUrl: './addcard.component.html',
@@ -16,10 +16,14 @@ itemname;
 items: number[]=[];
 total;
 delivery;
-  constructor(private router: Router) { }
+totalPay;
+  constructor(private router: Router,private toastr: ToastsManager,
+		private _vcr: ViewContainerRef) {
+this.toastr.setRootViewContainerRef(_vcr);
+        }
 
   ngOnInit() {
-      this.data1=JSON.parse(localStorage.getItem("addtocard"));
+      this.data1=JSON.parse(localStorage.getItem("addToCard"));
        console.log("data1",this.data1);
        for(let data of this.data1)
        {
@@ -33,6 +37,8 @@ delivery;
            this.delivery=40;
        }
        this.total=this.add+this.delivery;
+      this.totalPay=JSON.stringify(this.total);
+      localStorage.setItem("totalpay",this.totalPay);
        this.item=JSON.parse(localStorage.getItem("count"));
        if(this.item==1)
        {
@@ -41,15 +47,22 @@ delivery;
        {
            this.itemname="items"
        }
+       if(JSON.parse(localStorage.getItem("addcard")))
+    {
+     this.toastr.success("Success", 'mobile  removed from cart.');
+    localStorage.setItem("addcard", JSON.stringify(0));
+    }
 
   }
 remove(data)
 {
+
+
     var index=this.data1.indexOf(data);
     this.data1.splice(index,1);
     this.add=this.add-data.price;
     let remove=JSON.stringify(this.data1);
-     localStorage.setItem("addtocard",remove);
+     localStorage.setItem("addToCard",remove);
      var count=JSON.parse(localStorage.getItem("count"));
      --count;
     localStorage.setItem("count",JSON.stringify(count));
@@ -61,6 +74,8 @@ remove(data)
         this.delivery=40;
     }
      this.total=this.add+this.delivery;
+     this.totalPay=JSON.stringify(this.total);
+     localStorage.setItem("totalpay",this.totalPay);
      this.item=JSON.parse(localStorage.getItem("count"));
      if(this.item==1)
      {
@@ -69,6 +84,8 @@ remove(data)
      {
          this.itemname="items"
      }
+     localStorage.setItem("addcard", JSON.stringify(1));
+      window.location.reload();
 }
 placeorder()
 {

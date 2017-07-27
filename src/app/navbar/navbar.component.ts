@@ -1,6 +1,7 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit,ViewContainerRef } from '@angular/core';
 import {RouterModule, Routes, Router} from '@angular/router';
 import {Http, Response, Request, RequestMethod} from '@angular/http';
+import { ToastsManager,ToastOptions,Toast } from 'ng2-toastr/ng2-toastr';
 import 'rxjs/add/operator/map';
 
 @Component({
@@ -10,7 +11,10 @@ import 'rxjs/add/operator/map';
 })
 export class NavbarComponent implements OnInit {
 count;
-  constructor(public http: Http, private router: Router) { }
+  constructor(public http: Http,private toastr: ToastsManager,
+		 vcr: ViewContainerRef,private router: Router,private options:ToastOptions) {
+            this.options.toastLife=10000;
+             this.toastr.setRootViewContainerRef(vcr); }
 
   ngOnInit() {
      this.count=JSON.parse(localStorage.getItem("count"));
@@ -24,7 +28,8 @@ count;
                   let data =res.json();
               if (data.status==true)
               {
-                  this.router.navigate(['']);
+                localStorage.setItem("logout",JSON.stringify(1));
+                this.router.navigate(['']);
               }else
               {
               this.router.navigate(['/dashboard']);
@@ -34,5 +39,13 @@ count;
   addcard()
   {
        this.router.navigate(['/addcard']);
+  }
+  home()
+  {
+     this.router.navigate(['/dashboard']);
+  }
+  history()
+  {
+      this.router.navigate(['/history']);
   }
 }

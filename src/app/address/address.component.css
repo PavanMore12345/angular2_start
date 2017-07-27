@@ -17,3 +17,9 @@ button
     margin: auto;
     display: block;
 }
+@media(max-width: 650px) {
+	.form1
+	{
+		width:200px;
+	}
+}

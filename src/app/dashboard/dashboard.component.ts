@@ -18,7 +18,13 @@ export class DashboardComponent implements OnInit {
   data1;
   newdata:any[];
   mobiledata;
+  mobileaa;
+  ratingdata;
   nodata;
+  rating;
+  newrating;
+  ratingArray=[];
+  mobilerating;
   //arrayData:any;
   arryd:any;
   // arr = new Array("orange", "mango", "banana", "sugar");
@@ -59,8 +65,58 @@ export class DashboardComponent implements OnInit {
    this.toastr.success("Success", 'login success');
    localStorage.setItem("dashboard", JSON.stringify(0));
    }
-  }
+ this.rating=JSON.parse(localStorage.getItem("rating"));
+ // console.log("rating",this.rating);
+ this.mobileaa=JSON.parse(localStorage.getItem("gomobile"));
+ this.mobilerating=this.mobileaa.data;
+   // console.log("this.data",this.mobilerating,"this.rating",this.rating);
+   for(var i=0;i<this.rating.length;i++){
+        let id = this.rating[i].id;
+        let rating = this.rating[i].ratings;
+        this.mobilerating = this.mobilerating.map(function(data){
+                if(data.id == id){
+                   data.rating = Math.round((data.rating+rating)/2);
+                }
+                return data;
+            });
+   }
+    // let arrayLength = (this.mobilerating.length>this.rating.length ? this.mobilerating.length : this.rating.length) || 0;
+   // for(var i=0;i<this.mobilerating.length;i++)
+   // {
+   //   for(var j=0;j<this.rating.length;j++)
+   //   {
+   //       let index = this.rating.findIndex(function(data){
+   //          return (data.id ==this.mobilerating[i].id);
+   //       });
+   //       console.log(index);
+//    if(this.mobilerating[i].id==this.rating[j].id)
+//     {
+//     this.newrating=((this.mobilerating[i].rating+this.rating[j].ratings)/2);
+//     console.log("newrating",this.newrating);
+//     this.ratingdata={id:this.mobilerating[i].id,rating:this.newrating};
+//     if(this.ratingArray.indexOf(this.ratingdata) == -1) {
+//     this.ratingArray.push(this.ratingdata);
+//     }
+//
+// }
 
+//   }
+// }
+// for(var i=0;i<this.mobilerating.length;i++)
+// {
+//     for(var j=0;j<this.rating.length;j++)
+//     {
+//     if(this.mobilerating[i].id!=this.rating[j].id)
+//      {
+//   this.ratingdata={id:this.mobilerating[i].id,rating:this.mobilerating[i].rating}
+//   // if(this.ratingArray.indexOf(this.ratingdata) == -1) {
+//   this.ratingArray.push(this.ratingdata);
+//   // }
+//      }
+// }
+// }
+// console.log(this.ratingArray);
+}
 
   onClicked(value: any)
   {
@@ -82,7 +138,7 @@ export class DashboardComponent implements OnInit {
      this.term[value.head].splice(remove, 1);
    }
 }
-this.newdata = this.data1;
+this.newdata = this.mobilerating;
 var self = this;
 this.arryd = this.newdata.filter(function(mobileObj){
   let manufacturerFlag=true,storageFlag=true,cameraFlag=true,osFlag=true;

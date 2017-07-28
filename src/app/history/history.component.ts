@@ -1,5 +1,7 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit,ViewContainerRef } from '@angular/core';
 import {Popup} from 'ng2-opd-popup';
+import { ToastsManager } from 'ng2-toastr/ng2-toastr';
+
 @Component({
   selector: 'app-history',
   templateUrl: './history.component.html',
@@ -8,7 +10,10 @@ import {Popup} from 'ng2-opd-popup';
 export class HistoryComponent implements OnInit {
 history;
 id;
-  constructor(private popup:Popup) { }
+  constructor(private popup:Popup,private toastr: ToastsManager,
+		private _vcr: ViewContainerRef) {
+this.toastr.setRootViewContainerRef(_vcr);
+}
 
   ngOnInit() {
       this.history=JSON.parse(localStorage.getItem("history"));
@@ -21,9 +26,7 @@ id;
       if(localStorage.getItem("rating"))
       {
          var ratingData=JSON.parse(localStorage.getItem("rating"));
-         alert(JSON.stringify(ratingData));
          ratingArr=ratingData;
-          alert(JSON.stringify(ratingArr));
          ratingArr.push(data1);
 
       }
@@ -31,10 +34,8 @@ id;
       {
           ratingArr.push(data1);
       }
-      alert("id"+this.id);
-      alert("ratings"+ratings);
       let abc=ratingArr;
-    //    ratingArr.push("")
+   this.toastr.info("Thanks", 'thanks for rating the mobile');
        localStorage.setItem("rating",JSON.stringify(abc));
     this.popup.hide();
   }

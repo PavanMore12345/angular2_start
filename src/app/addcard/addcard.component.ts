@@ -114,5 +114,10 @@ if(phonepe=="cashondelivery")
 }
 
 }
+wishlist()
+{
+   console.log("wishlist");
+    this.router.navigate(['/wishlist']);
+}
 
 }

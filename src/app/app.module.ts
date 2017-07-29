@@ -22,7 +22,8 @@ import { AddcardComponent } from './addcard/addcard.component';
 import { AddressComponent } from './address/address.component';
 import { PayamentinfoComponent } from './payamentinfo/payamentinfo.component';
 import { HistoryComponent } from './history/history.component';
-import {PopupModule} from 'ng2-opd-popup'
+import {PopupModule} from 'ng2-opd-popup';
+import { WishlistComponent } from './wishlist/wishlist.component'
   // import {BrowserAnimationsModule} from '@angular/platform-browser/animations'
 //
 const appRoutes : Routes = [
@@ -34,6 +35,7 @@ const appRoutes : Routes = [
   { path:'address',  component:AddressComponent},
   { path:'payamentinfo',  component:PayamentinfoComponent},
    { path:'history',  component:HistoryComponent},
+   { path:'wishlist', component:WishlistComponent},
 ];
 
 @NgModule({
@@ -50,7 +52,8 @@ const appRoutes : Routes = [
     AddcardComponent,
     AddressComponent,
     PayamentinfoComponent,
-    HistoryComponent
+    HistoryComponent,
+    WishlistComponent
     //,PostsComponent
   ],
   imports: [

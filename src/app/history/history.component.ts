@@ -43,5 +43,14 @@ this.toastr.setRootViewContainerRef(_vcr);
     this.popup.show();
     this.id=data;
   }
+  remove(data)
+  {
+     console.log(data);
+     var index=this.history.indexOf(data);
+     this.history.splice(index,1);
+     let remove=JSON.stringify(this.history);
+     localStorage.setItem("history",remove);
+    this.toastr.info("remove", 'you removed mobile from cart');
+ }
 
 }

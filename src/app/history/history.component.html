@@ -1,21 +1,6 @@
 <app-navbar></app-navbar>
 <div class="col-md-6" style="margin-top:50px">
 <div  *ngFor="let data of history">
-    <div class="modal fade"  #elem id="myid" role="dialog">
-      <div class="modal-dialog">
-
-        <!-- Modal content-->
-        <div class="modal-content">
-          <div class="modal-body">
-          Ratings:<input type="number" [(ngModel)]="rating" min="1" max="5">Out Of 5
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-default" (click)="ratings(data.id,rating)">Save</button>
-             <input type="reset" class="btn btn-default" value="close" data-dismiss="modal">
-          </div>
-        </div>
-      </div>
-    </div>
     <popup>
          Ratings:<input type="number" [(ngModel)]="rating" min="1" max="5">Out Of 5
         <button type="button" class="btn btn-default" (click)="ratings(data.id,rating)">Save</button>

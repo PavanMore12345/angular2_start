@@ -9,7 +9,7 @@ import { ActivatedRoute } from '@angular/router';
   styleUrls: ['./wishlist.component.css']
 })
 export class WishlistComponent implements OnInit {
-data1;count;
+data1;count;wishcount;
 constructor(private route: ActivatedRoute,private toastr: ToastsManager,
     private _vcr: ViewContainerRef )
     {
@@ -17,6 +17,7 @@ constructor(private route: ActivatedRoute,private toastr: ToastsManager,
    }
 
   ngOnInit() {
+     //this.wishlistcount++;
       this.data1=JSON.parse(localStorage.getItem("wishlist"))
       console.log("this.data1",this.data1);
       if(JSON.parse(localStorage.getItem("status")))
@@ -24,6 +25,7 @@ constructor(private route: ActivatedRoute,private toastr: ToastsManager,
    this.toastr.success("Success", 'card added successfully.');
    localStorage.setItem("status", JSON.stringify(0));
    }
+   this.wishcount=JSON.parse(localStorage.getItem("wicount"));
   }
 addtoCart(data)
 {
@@ -70,6 +72,8 @@ var index=this.data1.indexOf(data);
 this.data1.splice(index,1);
 let remove=JSON.stringify(this.data1);
 localStorage.setItem("wishlist",remove);
+this.wishcount--;
+localStorage.setItem("wicount",JSON.stringify(this.wishcount));
 }
 delete(data)
 {
@@ -77,5 +81,7 @@ delete(data)
    this.data1.splice(index,1);
    let remove=JSON.stringify(this.data1);
    localStorage.setItem("wishlist",remove);
+   this.wishcount--;
+   localStorage.setItem("wicount",JSON.stringify(this.wishcount));
 }
 }

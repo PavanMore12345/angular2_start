@@ -95,6 +95,7 @@ localStorage.setItem("status",JSON.stringify(1));
 }
 wishlist(data)
 {
+
    var data1;
    var names=[];
    var a=[];
@@ -125,6 +126,9 @@ let abc=JSON.stringify(names);
 // window.location.reload();
 console.log("abc",abc);
  localStorage.setItem("wishlist",abc);
+this.wishlistcount=JSON.parse(localStorage.getItem("wicount"));
+ this.wishlistcount=this.wishlistcount+1;
   this.toastr.success("Success", 'successfully added to the wishlist.');
+ localStorage.setItem("wicount",JSON.stringify(this.wishlistcount));
 }
 }

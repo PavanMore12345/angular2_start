@@ -111,6 +111,9 @@ if(phonepe=="cashondelivery")
 {
     console.log("adreess");
     this.router.navigate(['/address']);
+}else
+{
+    this.toastr.error("Payment", 'please select payment mode.');
 }
 
 }

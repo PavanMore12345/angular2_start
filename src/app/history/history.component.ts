@@ -50,7 +50,7 @@ this.toastr.setRootViewContainerRef(_vcr);
      this.history.splice(index,1);
      let remove=JSON.stringify(this.history);
      localStorage.setItem("history",remove);
-    this.toastr.info("remove", 'you removed mobile from cart');
+    this.toastr.info("remove", 'you removed mobile from history');
  }
 
 }

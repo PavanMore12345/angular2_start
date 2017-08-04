@@ -6,5 +6,5 @@ import { AppModule } from './app/app.module';
 if (environment.production) {
   enableProdMode();
 }
-
-platformBrowserDynamic().bootstrapModule(AppModule);
+console.log(AppModule);
+ platformBrowserDynamic().bootstrapModule(AppModule);

@@ -702,3 +702,11 @@
 {"level":"info","message":"Server Started at port no 4200","timestamp":"2017-07-29T13:31:25.335Z"}
 {"level":"error","message":"unconnected","timestamp":"2017-07-31T03:44:56.833Z"}
 {"level":"info","message":"Server Started at port no 4200","timestamp":"2017-07-31T03:44:56.835Z"}
+{"level":"error","message":"unconnected","timestamp":"2017-08-01T04:29:48.247Z"}
+{"level":"info","message":"Server Started at port no 4200","timestamp":"2017-08-01T04:29:48.249Z"}
+{"level":"error","message":"unconnected","timestamp":"2017-08-02T04:06:02.617Z"}
+{"level":"info","message":"Server Started at port no 4200","timestamp":"2017-08-02T04:06:02.619Z"}
+{"level":"error","message":"unconnected","timestamp":"2017-08-02T07:38:01.614Z"}
+{"level":"info","message":"Server Started at port no 4200","timestamp":"2017-08-02T07:38:01.616Z"}
+{"level":"error","message":"unconnected","timestamp":"2017-08-02T12:32:48.776Z"}
+{"level":"info","message":"Server Started at port no 4200","timestamp":"2017-08-02T12:32:48.777Z"}

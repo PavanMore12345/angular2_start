@@ -6,8 +6,6 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./anagram.component.css']
 })
 export class AnagramComponent implements OnInit {
-count1=0;
-count2=0;
   constructor() { }
 
   ngOnInit() {
@@ -19,6 +17,8 @@ ok(string1,string2)
    // console.log("str",string2);
    // var string1=new String(string1);
    // var string2= new String(string2);
+   string1=string1.replace(/ /g,'');
+   string2=string2.replace(/ /g,'');
 if(string1.length!=string2.length)
 {
    console.log("string is not anagram");

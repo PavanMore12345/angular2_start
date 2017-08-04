@@ -1,0 +1,837 @@
+{
+ "kind": "youtube#searchListResponse",
+ "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/g0ZLibb14qhmowH2yFslzFSFFzw\"",
+ "nextPageToken": "CBkQAA",
+ "regionCode": "IN",
+ "pageInfo": {
+  "totalResults": 1926,
+  "resultsPerPage": 25
+ },
+ "items": [
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/mBEZUXN1goFLL50ccFGg8QVzIKY\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "U5Mf1r6lhrM"
+   },
+   "snippet": {
+    "publishedAt": "2017-07-18T23:13:30.000Z",
+    "channelId": "UCK8sQmJBp8GCxrOtXWBpyEA",
+    "title": "#ShowUp Stories: Patricia | Birmingham, AL",
+    "description": "Meet Patricia, Alabama's first and only openly-gay legislator who is representing the community, rainbow flag in hand. Everyone has a reason to #ShowUp – in ...",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/U5Mf1r6lhrM/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/U5Mf1r6lhrM/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/U5Mf1r6lhrM/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "Google",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/PrRTL41JZNdxKFHbyDnNkUOk2k8\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "cBcXZZakoUg"
+   },
+   "snippet": {
+    "publishedAt": "2017-07-18T23:13:34.000Z",
+    "channelId": "UCK8sQmJBp8GCxrOtXWBpyEA",
+    "title": "#ShowUp Stories: Anthony (a.k.a Jacqueline) | Providence, RI",
+    "description": "Meet Anthony...and Jacqueline, a drag performer and social justice advocate with two personas and one mission: equality for all. Everyone has a reason to ...",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/cBcXZZakoUg/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/cBcXZZakoUg/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/cBcXZZakoUg/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "Google",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/6SJO7VbEqUMT3owGiuy5TJd13iA\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "7cxjJ8seeJ4"
+   },
+   "snippet": {
+    "publishedAt": "2017-07-18T23:13:33.000Z",
+    "channelId": "UCK8sQmJBp8GCxrOtXWBpyEA",
+    "title": "#ShowUp Stories: Kristi | Wichita, KS",
+    "description": "Meet Kristi. The creator of the only and longest-running gay and lesbian newspaper in Kansas reflects on how the 27-year-old publication has become a force ...",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/7cxjJ8seeJ4/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/7cxjJ8seeJ4/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/7cxjJ8seeJ4/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "Google",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/hTgEDIGDIoMtwsAmuGsPWNnWeqE\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "CwxINacMJSc"
+   },
+   "snippet": {
+    "publishedAt": "2017-07-18T23:13:32.000Z",
+    "channelId": "UCK8sQmJBp8GCxrOtXWBpyEA",
+    "title": "#ShowUp Stories: Sarah | Corpus Christi, TX",
+    "description": "This year, Corpus Christi showed up for Pride for the first time ever. Meet Sarah, the woman and mastermind behind it all… Everyone has a reason to #ShowUp ...",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/CwxINacMJSc/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/CwxINacMJSc/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/CwxINacMJSc/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "Google",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/y7_zFu9-x9c9K7wYnC5JwABPE1w\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "0XB2o201eW4"
+   },
+   "snippet": {
+    "publishedAt": "2017-07-18T23:13:35.000Z",
+    "channelId": "UCK8sQmJBp8GCxrOtXWBpyEA",
+    "title": "#ShowUp Stories: Ashfaq | Birmingham, AL",
+    "description": "Meet Ashfaq, a leader of the Muslim community in Birmingham who became an ally of the LGBTQ+ community following the tragedy in Orlando. Everyone has a ...",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/0XB2o201eW4/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/0XB2o201eW4/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/0XB2o201eW4/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "Google",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/OFlJVPZ0HnMy4poTmElHL-aO1f8\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "u6CnnffiYls"
+   },
+   "snippet": {
+    "publishedAt": "2017-07-18T23:13:32.000Z",
+    "channelId": "UCK8sQmJBp8GCxrOtXWBpyEA",
+    "title": "#ShowUp Stories: Jessica | Corpus Christi, TX",
+    "description": "Meet Jessica, a (role) model who shows up for big change in her small town. Everyone has a reason to #ShowUp – in spirit and in person, at parades and ...",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/u6CnnffiYls/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/u6CnnffiYls/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/u6CnnffiYls/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "Google",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/79kEj2LOrTOFUwn6AR04cGOMCZQ\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "Aoam2KLjNSI"
+   },
+   "snippet": {
+    "publishedAt": "2017-07-18T23:10:42.000Z",
+    "channelId": "UCK8sQmJBp8GCxrOtXWBpyEA",
+    "title": "#ShowUp Stories: Frances | New York, NY",
+    "description": "Meet Frances, the “Mother of Pride” (and of two lesbian daughters) who hasn't missed a parade since the very first one in 1970. Everyone has a reason to ...",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/Aoam2KLjNSI/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/Aoam2KLjNSI/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/Aoam2KLjNSI/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "Google",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/m02C_2hAPg3OBYJ6l-ELh5KfvR4\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "DBtqb86XmLc"
+   },
+   "snippet": {
+    "publishedAt": "2017-07-18T23:10:42.000Z",
+    "channelId": "UCK8sQmJBp8GCxrOtXWBpyEA",
+    "title": "#ShowUp Stories: Wendylou & Desmond | New York, NY",
+    "description": "Meet Wendylou & Desmond. A super mom and her 10-year-old son take to the streets hand in hand. Everyone has a reason to #ShowUp – in spirit and in ...",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/DBtqb86XmLc/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/DBtqb86XmLc/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/DBtqb86XmLc/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "Google",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/T77CL5yGXYw5YpI6lHAvbFKGWYM\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "CKFRzTayUgA"
+   },
+   "snippet": {
+    "publishedAt": "2017-07-18T23:10:40.000Z",
+    "channelId": "UCK8sQmJBp8GCxrOtXWBpyEA",
+    "title": "#ShowUp Stories: Jash | Wichita, KS",
+    "description": "Meet Jash, an elementary school supervisor who speaks to the importance of owning their unique concept of gender and stepping into the discomfort to make ...",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/CKFRzTayUgA/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/CKFRzTayUgA/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/CKFRzTayUgA/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "Google",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/2-3xQNsQFQSaTlNgexqiX9z_r28\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "YRScfP9J7DE"
+   },
+   "snippet": {
+    "publishedAt": "2017-07-18T23:10:40.000Z",
+    "channelId": "UCK8sQmJBp8GCxrOtXWBpyEA",
+    "title": "#ShowUp Stories: Ashley | Providence, RI",
+    "description": "Meet Ashley. This Providence beauty wears the Miss Lesbian Rhode Island 2017 crown and isn't afraid to let her true colors show. Everyone has a reason to ...",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/YRScfP9J7DE/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/YRScfP9J7DE/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/YRScfP9J7DE/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "Google",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/9KoIUnSzmA6BDPZYqhRpLUls3fM\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "EnDPzHBmkCs"
+   },
+   "snippet": {
+    "publishedAt": "2017-07-18T23:10:40.000Z",
+    "channelId": "UCK8sQmJBp8GCxrOtXWBpyEA",
+    "title": "#ShowUp Stories: Michael | New York, NY",
+    "description": "Meet Michael, a Nigerian LGBTQ+ rights activist who fled persecution in his home country and found refuge in the big city. Everyone has a reason to #ShowUp ...",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/EnDPzHBmkCs/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/EnDPzHBmkCs/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/EnDPzHBmkCs/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "Google",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/FoaTZ0N0MaaQCWfP4xc4cWNLV7A\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "t8Z4bmhH4Es"
+   },
+   "snippet": {
+    "publishedAt": "2017-07-18T23:10:41.000Z",
+    "channelId": "UCK8sQmJBp8GCxrOtXWBpyEA",
+    "title": "#ShowUp Stories: Rev. Jackie | Wichita, KS",
+    "description": "Meet Rev. Jackie, a pastor who fearlessly officiated Kansas' first gay marriages days after it first became legal. Everyone has a reason to #ShowUp – in spirit and ...",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/t8Z4bmhH4Es/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/t8Z4bmhH4Es/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/t8Z4bmhH4Es/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "Google",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/aLzPwdrnI_SLcvrGbQNhcYYWl7U\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "747J2sRwmV8"
+   },
+   "snippet": {
+    "publishedAt": "2017-07-18T23:10:30.000Z",
+    "channelId": "UCK8sQmJBp8GCxrOtXWBpyEA",
+    "title": "#ShowUp Stories: Amelia | San Francisco, CA",
+    "description": "Meet Amelia, a community organizer who works and identifies at the intersection of LGBTQ+ and Native American identity. Everyone has a reason to #ShowUp ...",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/747J2sRwmV8/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/747J2sRwmV8/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/747J2sRwmV8/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "Google",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/lKpM6jOlF8i-Lbv0QqBGXF_OzAk\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "i0aBEmzRE_U"
+   },
+   "snippet": {
+    "publishedAt": "2017-07-13T17:33:58.000Z",
+    "channelId": "UCK8sQmJBp8GCxrOtXWBpyEA",
+    "title": "Nat & Friends: VR for Creativity Sneak Peek",
+    "description": "Nat & Friends explore how virtual reality is creating new possibilities for artists and creators, thanks to tools like Tilt Brush, Blocks, Mindshow, and 360 cameras.",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/i0aBEmzRE_U/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/i0aBEmzRE_U/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/i0aBEmzRE_U/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "Google",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/iwqZsNCa8zth5UsxMtvndoKXrSI\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "mrp-VKy_gmE"
+   },
+   "snippet": {
+    "publishedAt": "2017-06-28T17:47:16.000Z",
+    "channelId": "UCK8sQmJBp8GCxrOtXWBpyEA",
+    "title": "Nat & Friends: Virtual Reality Sneak Peek",
+    "description": "Nat meets people from Daydream Labs, Expeditions, and Google Research to try as many VR demos as she can. Watch the full video here ...",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/mrp-VKy_gmE/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/mrp-VKy_gmE/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/mrp-VKy_gmE/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "Google",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/arTVRQJT3aGFrehY5MFcJWzEjbw\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "Ar8l35RZc2M"
+   },
+   "snippet": {
+    "publishedAt": "2017-06-23T07:36:23.000Z",
+    "channelId": "UCK8sQmJBp8GCxrOtXWBpyEA",
+    "title": "Giving Back through Business: The Story of Honest Chops",
+    "description": "Charity is a core tradition of Ramadan. In the spirit of the holiday, Honest Chops joined the countless Muslim-owned businesses that gave back to their ...",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/Ar8l35RZc2M/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/Ar8l35RZc2M/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/Ar8l35RZc2M/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "Google",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/UZQpcXZpQRMgUSnhroK4Zrr7l-4\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "IOSYsJ0jjmI"
+   },
+   "snippet": {
+    "publishedAt": "2017-06-21T16:11:06.000Z",
+    "channelId": "UCK8sQmJBp8GCxrOtXWBpyEA",
+    "title": "We all have a reason to #ShowUp",
+    "description": "This Pride, we can all #ShowUp. In spirit and in person. At parades and marches, in cities big and small. To make this Pride bigger, louder, and prouder than ...",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/IOSYsJ0jjmI/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/IOSYsJ0jjmI/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/IOSYsJ0jjmI/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "Google",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/YViVUwmTwv0LNfcW8fCl6kfN37c\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "QLpvmIC9e8M"
+   },
+   "snippet": {
+    "publishedAt": "2017-06-20T07:06:09.000Z",
+    "channelId": "UCK8sQmJBp8GCxrOtXWBpyEA",
+    "title": "NetHope: Providing Internet access to refugees",
+    "description": "In response to the European refugee crisis in 2015, Google volunteers started working with NetHope engineers like llias to bring Internet access to camps ...",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/QLpvmIC9e8M/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/QLpvmIC9e8M/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/QLpvmIC9e8M/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "Google",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/g9jrpUbCp5B4qd0UFoMcdrCpBKE\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "akpe5uUKv9U"
+   },
+   "snippet": {
+    "publishedAt": "2017-06-20T07:06:24.000Z",
+    "channelId": "UCK8sQmJBp8GCxrOtXWBpyEA",
+    "title": "Refugee.Info Hub: Providing vital information to refugees",
+    "description": "In 2015, thousands of refugees were landing on the Greek islands every day. Information on the ground was scarce, so Google started working with the ...",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/akpe5uUKv9U/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/akpe5uUKv9U/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/akpe5uUKv9U/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "Google",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/zgWA8vUFy5LTzpXlJ692lLgVt2g\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "4QrRsw0p6Bg"
+   },
+   "snippet": {
+    "publishedAt": "2017-06-20T07:05:43.000Z",
+    "channelId": "UCK8sQmJBp8GCxrOtXWBpyEA",
+    "title": "Find your next job, with Google",
+    "description": "The job search can be tricky. We've teamed up with job sites and organizations to help make it a bit easier, right in Search.",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/4QrRsw0p6Bg/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/4QrRsw0p6Bg/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/4QrRsw0p6Bg/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "Google",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/DGpoMZJISiWY-vlT6XxJHrpbCWk\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "8kSZJj4QY_M"
+   },
+   "snippet": {
+    "publishedAt": "2017-06-20T04:01:28.000Z",
+    "channelId": "UCK8sQmJBp8GCxrOtXWBpyEA",
+    "title": "Maher's Story",
+    "description": "When Maher was 18 and living in Iraq, he used Google Translate to teach himself English. Forced from his home by violence, his story continues today in ...",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/8kSZJj4QY_M/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/8kSZJj4QY_M/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/8kSZJj4QY_M/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "Google",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/67McY0BdlNFQq14jyR-J4gJP_dM\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "UIqWXfMijkw"
+   },
+   "snippet": {
+    "publishedAt": "2017-06-15T14:03:12.000Z",
+    "channelId": "UCK8sQmJBp8GCxrOtXWBpyEA",
+    "title": "Our colorful world shot by #teampixel",
+    "description": "There's room for everyone with unlimited photo and video storage* on Pixel, Phone by Google. Learn more at https://madeby.google.com/phone *Unlimited ...",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/UIqWXfMijkw/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/UIqWXfMijkw/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/UIqWXfMijkw/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "Google",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/qvDgkRa5o6otvNIHRDq7kfMhJEg\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "Su9gQTITzv8"
+   },
+   "snippet": {
+    "publishedAt": "2017-06-13T10:00:01.000Z",
+    "channelId": "UCK8sQmJBp8GCxrOtXWBpyEA",
+    "title": "Google supports EJI in the fight for racial justice",
+    "description": "Equal Justice Initiative, a Google.org grantee, believes that by understanding our past, we can work toward a better tomorrow. Google is proud to support their ...",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/Su9gQTITzv8/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/Su9gQTITzv8/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/Su9gQTITzv8/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "Google",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/EvaHjrv6F9b3rv7K0v6F3UOiloI\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "Z5xOcjC5-oo"
+   },
+   "snippet": {
+    "publishedAt": "2017-06-08T16:01:35.000Z",
+    "channelId": "UCK8sQmJBp8GCxrOtXWBpyEA",
+    "title": "Eclipse Megamovie: Citizen science for the 2017 total solar eclipse",
+    "description": "August 21, 2017 will be a very special day. For the first time in 100 years, a total solar eclipse will cross the United States. It's not only an opportunity for millions ...",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/Z5xOcjC5-oo/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/Z5xOcjC5-oo/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/Z5xOcjC5-oo/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "Google",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/VARQj48PFBr4SFrlFQl0oUmZf0Q\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "HrbYlCUTOEI"
+   },
+   "snippet": {
+    "publishedAt": "2017-06-08T07:28:47.000Z",
+    "channelId": "UCK8sQmJBp8GCxrOtXWBpyEA",
+    "title": "#WeWearCulture  | Technology unveils the stories behind what we wear",
+    "description": "Discover more on https://g.co/wewearculture What stories do our clothes tell? From Coco Chanel's black dress in virtual reality and the story of ripped jeans as ...",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/HrbYlCUTOEI/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/HrbYlCUTOEI/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/HrbYlCUTOEI/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "Google",
+    "liveBroadcastContent": "none"
+   }
+  }
+ ]
+}

@@ -22,9 +22,14 @@ import { AddcardComponent } from './addcard/addcard.component';
 import { AddressComponent } from './address/address.component';
 import { PayamentinfoComponent } from './payamentinfo/payamentinfo.component';
 import { HistoryComponent } from './history/history.component';
-import {PopupModule} from 'ng2-opd-popup';
+ import {PopupModule} from 'ng2-opd-popup';
 import { WishlistComponent } from './wishlist/wishlist.component';
-import { AnagramComponent } from './anagram/anagram.component'
+import { AnagramComponent } from './anagram/anagram.component';
+import { MediaplayerComponent } from './mediaplayer/mediaplayer.component';
+import { YoutubePlayerModule } from 'ng2-youtube-player';
+// import { ImagecropperComponent } from './imagecropper/imagecropper.component';
+// import { Ng2CropperComponent } from './ng2-cropper/ng2-cropper.component';
+// import {Ng2CropperjsModule} from "./ng2-cropper/ng2-cropperjs.module";
   // import {BrowserAnimationsModule} from '@angular/platform-browser/animations'
 //
 const appRoutes : Routes = [
@@ -37,11 +42,13 @@ const appRoutes : Routes = [
   { path:'payamentinfo',  component:PayamentinfoComponent},
    { path:'history',  component:HistoryComponent},
    { path:'wishlist', component:WishlistComponent},
-   { path:'anagram', component:AnagramComponent}
+   { path:'anagram', component:AnagramComponent},
+   { path:'mediaplayer', component:MediaplayerComponent},
+   // { path:'imagecropper', component:ImagecropperComponent},
 ];
-
-@NgModule({
-  declarations: [
+//
+ @NgModule({
+   declarations: [
     AppComponent,
     HomeComponent,
     RegisterComponent,
@@ -56,19 +63,23 @@ const appRoutes : Routes = [
     PayamentinfoComponent,
     HistoryComponent,
     WishlistComponent,
-    AnagramComponent
+    AnagramComponent,
+    MediaplayerComponent
+   //  ImagecropperComponent,
+   //  Ng2CropperComponent
     //,PostsComponent
-  ],
-  imports: [
+   ],
+   imports: [
     CommonModule,
     BrowserModule,
     FormsModule,
+    YoutubePlayerModule ,
     HttpModule,
     ToastModule.forRoot(),
     PopupModule.forRoot(),
     RouterModule.forRoot(appRoutes, { useHash: true})
   ],
   providers: [PostsService,FilterdataPipe,SortByPipe],
-  bootstrap: [AppComponent]
-})
-export class AppModule { }
+   bootstrap: [AppComponent]
+ })
+ export class AppModule { }

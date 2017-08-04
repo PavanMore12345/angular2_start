@@ -1,6 +1,11 @@
 {
   "compilerOptions": {
     "baseUrl": "",
+    "paths": {
+      "@angular/*": [
+        "../node_modules/@angular/*"
+      ]
+    },
     "declaration": false,
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,

@@ -70,16 +70,21 @@ export class DashboardComponent implements OnInit {
  this.mobileaa=JSON.parse(localStorage.getItem("gomobile"));
  this.mobilerating=this.mobileaa.data;
    // console.log("this.data",this.mobilerating,"this.rating",this.rating);
+   let ratinglen=this.rating.length;
+  ratinglen=ratinglen+1;
    for(var i=0;i<this.rating.length;i++){
         let id = this.rating[i].id;
         let rating = this.rating[i].ratings;
+        console.log("ratinglen",ratinglen);
         this.mobilerating = this.mobilerating.map(function(data){
                 if(data.id == id){
-                   data.rating = Math.round((data.rating+rating)/2);
+                    data.rating = Math.round((data.rating+rating)/2);
+  console.log("datarating",data.rating);
                 }
                 return data;
             });
    }
+
     // let arrayLength = (this.mobilerating.length>this.rating.length ? this.mobilerating.length : this.rating.length) || 0;
    // for(var i=0;i<this.mobilerating.length;i++)
    // {

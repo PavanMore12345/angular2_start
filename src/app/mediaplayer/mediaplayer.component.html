@@ -1,0 +1,64 @@
+<!-- <div class="container">
+      <section class="panel">
+        <div class="panel-heading">Angular (+2,4) Youtube Player Component</div>
+        <div *ngFor="let data of youtubedata"  class="panel-body">
+          <youtube-player  [videoId]="data.videoId"   (ready)="savePlayer($event)" (change)="onStateChange($event)" >
+          </youtube-player>
+        </div>
+      </section>
+
+      <div class="col-md-12">
+        <div class="btn-group" role="group">
+          <button type="button" class="btn btn-default" (click)="playVideo()">Play</button>
+          <button type="button" class="btn btn-default" (click)="pauseVideo()">Pause</button>
+        </div>
+      </div>
+
+      <div class="col-md-12">
+        <section class="panel">
+          <div class="panel-title">Player State</div>
+          <div class="panel-body">
+            <pre>{{ ytEvent }}</pre>
+          </div>
+        </section>
+      </div>
+    </div> -->
+    <div  class="col-lg-12">
+      <div style=" overflow:scroll;height:650px;overflow-x:hidden;"  class="col-lg-4 col-sm-4 col-md-4">
+      <div *ngFor="let data of youtubedata" >
+         <div class="col-lg-10" style="border:1px solid black;padding:10px;" (click)="youtube(data)">
+       <div class="col-lg-6" >
+       <img src="{{data.url}}"/>
+         </div>
+         <div class="col-lg-6">
+            {{data.title}}
+         </div>
+      </div>
+      </div>
+   </div>
+      <div class="col-lg-4">
+         <div style="width:70%;border:1px solid black;height:300px;margin-top:100px;">
+          <h3 style="background-color:black;color:white;margin-top:0px">my playlist</h3>
+          <div style="overflow:scroll;overflow-x:hidden;height:250px;">
+             <div *ngFor="let data of playlistdata" >
+                <div class="col-lg-12" style="border:1px solid black;padding:5px;" >
+              <div class="col-lg-6" >
+              <img src="{{data.url}}"/>
+                </div>
+                <div class="col-lg-6">
+                   {{data.title}}
+                </div>
+             </div>
+             </div>
+         </div>
+      </div>
+         <div class="btn-group" role="group">
+           <button type="button" class="btn btn-default" (click)="playVideo()">Play</button>
+           <button type="button" class="btn btn-default" (click)="pauseVideo()">Pause</button>
+         </div>
+   </div>
+      <div class="col-lg-4">
+         <youtube-player  [videoId]="id"  (ready)="savePlayer($event)" (change)="onStateChange($event)" >
+         </youtube-player>
+      </div>
+</div>

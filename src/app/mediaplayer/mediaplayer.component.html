@@ -23,30 +23,62 @@
         </section>
       </div>
     </div> -->
+    <app-navbar></app-navbar>
     <div  class="col-lg-12">
-      <div style=" overflow:scroll;height:650px;overflow-x:hidden;"  class="col-lg-4 col-sm-4 col-md-4">
-      <div *ngFor="let data of youtubedata" >
+      <div style=" overflow:scroll;height:650px;overflow-x:hidden;margin-top:64px"  class="col-lg-4 col-sm-4 col-md-4">
+        <div><h3 style="text-align:center;" (click)="googleclick()">GoogleVideos</h3></div>
+         <div  *ngIf="googlevalue">
+            <div *ngFor="let data of youtubedata">
+            <div class="col-lg-10" style="border:1px solid black;padding:10px;" (click)="youtube(data)">
+          <div class="col-lg-6" >
+          <img src="{{data.snippet.thumbnails.default.url}}"/>
+            </div>
+            <div class="col-lg-6">
+               {{data.snippet.title}}
+            </div>
+         </div>
+         </div>
+      </div>
+      <div><h3 style="text-align:center;" (click)="sonyclick()">SonyVideos</h3></div>
+      <div  *ngIf="sonyvalue">
+         <div *ngFor="let data of sonydata">
          <div class="col-lg-10" style="border:1px solid black;padding:10px;" (click)="youtube(data)">
        <div class="col-lg-6" >
-       <img src="{{data.url}}"/>
+       <img src="{{data.snippet.thumbnails.default.url}}"/>
          </div>
          <div class="col-lg-6">
-            {{data.title}}
+            {{data.snippet.title}}
          </div>
       </div>
       </div>
+   </div>
+      <div><h3 style="text-align:center;" (click)="samsungclick()">SamsungVideos</h3></div>
+      <div *ngIf="samsungvalue">
+         <div *ngFor="let data of samsungdata">
+         <div class="col-lg-10" style="border:1px solid black;padding:10px;" (click)="youtube(data)">
+       <div class="col-lg-6" >
+       <img src="{{data.snippet.thumbnails.default.url}}"/>
+         </div>
+         <div class="col-lg-6">
+            {{data.snippet.title}}
+         </div>
+      </div>
+      </div>
+   </div>
    </div>
       <div class="col-lg-4">
          <div style="width:70%;border:1px solid black;height:300px;margin-top:100px;">
           <h3 style="background-color:black;color:white;margin-top:0px">my playlist</h3>
           <div style="overflow:scroll;overflow-x:hidden;height:250px;">
              <div *ngFor="let data of playlistdata" >
-                <div class="col-lg-12" style="border:1px solid black;padding:5px;" >
-              <div class="col-lg-6" >
-              <img src="{{data.url}}"/>
+                <div class="col-lg-12" style="border:1px solid black;padding:5px;"  (click)="mediaPlayer(data)">
+               <div style="float:right"><span class="glyphicon glyphicon-trash" (click)="deleteData(data)"></span>
+               </div>
+              <div class="col-lg-6"  >
+              <img src="{{data.snippet.thumbnails.default.url}}"/>
                 </div>
-                <div class="col-lg-6">
-                   {{data.title}}
+                <div style="margin-top:-10px;padding-left:29px;" class="col-lg-6">
+                  {{data.snippet.title}}
                 </div>
              </div>
              </div>
@@ -57,8 +89,10 @@
            <button type="button" class="btn btn-default" (click)="pauseVideo()">Pause</button>
          </div>
    </div>
-      <div class="col-lg-4">
-         <youtube-player  [videoId]="id"  (ready)="savePlayer($event)" (change)="onStateChange($event)" >
+      <div class="col-lg-4" style="margin-top:64px;" >
+         {{youplay}}
+         <youtube-player  [videoId]="youplay"  (ready)="savePlayer($event)"
+            (change)="onStateChange($event)">
          </youtube-player>
       </div>
 </div>

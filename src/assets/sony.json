@@ -1,0 +1,1662 @@
+{
+    "kind": "youtube#searchListResponse",
+    "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/wIZBJkFbDrpBX4z3HrJc4gdcQ-k\"",
+    "nextPageToken": "CDIQAA",
+    "regionCode": "IN",
+    "pageInfo": {
+        "totalResults": 1284,
+        "resultsPerPage": 50
+    },
+    "items": [
+        {
+            "kind": "youtube#searchResult",
+            "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/nvjkdLk9M-X-dweTSDhnfjJQGyo\"",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "EfevYQWIqgM"
+            },
+            "snippet": {
+                "publishedAt": "2016-01-06T04:59:26.000Z",
+                "channelId": "UCVjS9AuBloqJJjhsy3vIfug",
+                "title": "\"meet your own world\" - Portable Ultra Short Throw Projector",
+                "description": "Sony's Portable Ultra Shrot Throw Projector is capable of throwing a 22\" to 80\" image onto walls, tables, or any other adjacent surface. In spite of its 10cm cubic ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/EfevYQWIqgM/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/EfevYQWIqgM/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/EfevYQWIqgM/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Sony",
+                "liveBroadcastContent": "none"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/E-3xqi_ULG1kvgCsK9wGdswFBNk\"",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "Z_pBI5afc64"
+            },
+            "snippet": {
+                "publishedAt": "2017-04-28T01:37:44.000Z",
+                "channelId": "UCVjS9AuBloqJJjhsy3vIfug",
+                "title": "Sony BRAVIA OLED TV – Experience a whole new world – “Earth Rising” advert",
+                "description": "The groundbreaking BRAVIA OLED from Sony pairs the extraordinary contrast, deep blacks and life-like colour of OLED technology with a cutting-edge product ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/Z_pBI5afc64/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/Z_pBI5afc64/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/Z_pBI5afc64/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Sony",
+                "liveBroadcastContent": "none"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/6BeunW2sEbKhGn2-PJAG8H-ezXo\"",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "-Dhu9AHg_UU"
+            },
+            "snippet": {
+                "publishedAt": "2016-09-01T11:18:05.000Z",
+                "channelId": "UCVjS9AuBloqJJjhsy3vIfug",
+                "title": "Sony Headphones MDR-1000X Official Product Video",
+                "description": "Learn more about MDR-1000X : http://www.sony.net/mdr-1000x MDR-1000X is the premium headphones with industry-leading* noise cancellation, and first to ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/-Dhu9AHg_UU/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/-Dhu9AHg_UU/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/-Dhu9AHg_UU/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Sony",
+                "liveBroadcastContent": "none"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/pnVMunM82jfKKRZXWA1g8x8REGk\"",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "mBD53kpFtjU"
+            },
+            "snippet": {
+                "publishedAt": "2014-02-12T04:10:53.000Z",
+                "channelId": "UCVjS9AuBloqJJjhsy3vIfug",
+                "title": "α6000 from Sony: Official Video Release. (Filmed exclusively with α6000 using continuous AF)",
+                "description": "Introducing the α6000 interchangeable-lens digital camera with the world's fastest AF performance* (0.06 sec.), made possible by a wide-area 179-point focal ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/mBD53kpFtjU/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/mBD53kpFtjU/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/mBD53kpFtjU/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Sony",
+                "liveBroadcastContent": "none"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/xz0fYAzNVN7PKgFgMEBlaeLKVvw\"",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "svbUXedWsbA"
+            },
+            "snippet": {
+                "publishedAt": "2014-11-20T03:59:18.000Z",
+                "channelId": "UCVjS9AuBloqJJjhsy3vIfug",
+                "title": "α7 Ⅱ 5-axis SteadyShot INSIDE from Sony: Official Video Release",
+                "description": "5-axis image stabilization (5-axis SteadyShot INSIDE) The remarkable new 5-axis image stabilization system dramatically expands your range of expression by ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/svbUXedWsbA/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/svbUXedWsbA/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/svbUXedWsbA/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Sony",
+                "liveBroadcastContent": "none"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/aVU-0-qJGYO8f8_2blr3EeXzepY\"",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "dFdU-JjypWs"
+            },
+            "snippet": {
+                "publishedAt": "2017-02-07T02:00:15.000Z",
+                "channelId": "UCVjS9AuBloqJJjhsy3vIfug",
+                "title": "The Super Slow Motion Movie Taken by 3-layer Stacked CMOS Image Sensor with DRAM",
+                "description": "English below: DRAM積層 3層積層型CMOSイメージセンサー スーパースローモーション動画 The Super Slow Motion Movie Taken by 3-layer Stacked CMOS Image ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/dFdU-JjypWs/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/dFdU-JjypWs/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/dFdU-JjypWs/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Sony",
+                "liveBroadcastContent": "none"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/Rwqbxi4nBx2ZVOoRchlF1daOuSE\"",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "LtbRLRhu0tg"
+            },
+            "snippet": {
+                "publishedAt": "2014-04-06T22:00:01.000Z",
+                "channelId": "UCVjS9AuBloqJJjhsy3vIfug",
+                "title": "α7S from Sony: Official Video Release",
+                "description": "Sony's α7S Full-Frame Camera Realizes a New World of Imaging Expression -Features newly developed, wide dynamic range sensor with awe-inspiring ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/LtbRLRhu0tg/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/LtbRLRhu0tg/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/LtbRLRhu0tg/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Sony",
+                "liveBroadcastContent": "none"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/1iH2vJKmVCrl5TuvvifqLVNsATA\"",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "OE7WMCQsJFc"
+            },
+            "snippet": {
+                "publishedAt": "2011-08-23T12:28:57.000Z",
+                "channelId": "UCVjS9AuBloqJJjhsy3vIfug",
+                "title": "α77 from Sony: Official Video Release [Full HD 1080p]",
+                "description": "α Global Portal (β version): http://www.sony.net/Products/ilc/ Unleash your full creative control The extraordinary new α77 empowers you to capture images that ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/OE7WMCQsJFc/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/OE7WMCQsJFc/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/OE7WMCQsJFc/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Sony",
+                "liveBroadcastContent": "none"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/HvpPuLe0F8mK5zBrGKljiq56uR8\"",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "CwTeuX_9UjM"
+            },
+            "snippet": {
+                "publishedAt": "2013-10-16T06:05:56.000Z",
+                "channelId": "UCVjS9AuBloqJJjhsy3vIfug",
+                "title": "α7/α7R from Sony: Official Video Release",
+                "description": "Full-frame, palm-sized α. All the advantages of a 35mm full-frame image sensor and lens interchangeability are now compressed in a body of unprecedented ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/CwTeuX_9UjM/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/CwTeuX_9UjM/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/CwTeuX_9UjM/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Sony",
+                "liveBroadcastContent": "none"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/Z2DaIeSBjXRrY9O1LswVx_14Cu4\"",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "NgFxrRzJs04"
+            },
+            "snippet": {
+                "publishedAt": "2015-01-06T01:18:08.000Z",
+                "channelId": "UCVjS9AuBloqJJjhsy3vIfug",
+                "title": "α7 Ⅱ Promotion Video from Sony: Official Video Release",
+                "description": "Full-frame, palm-sized α. Perfection for all. Stability for all. Breathtaking image quality meets unrivaled shooting freedom in the ɑ7 II, the world's first*1 full-frame ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/NgFxrRzJs04/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/NgFxrRzJs04/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/NgFxrRzJs04/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Sony",
+                "liveBroadcastContent": "none"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/nvO9jBdJUSwR52giilUrnUXlYFc\"",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "9mnFK2ocF9k"
+            },
+            "snippet": {
+                "publishedAt": "2016-01-06T02:19:41.000Z",
+                "channelId": "UCVjS9AuBloqJJjhsy3vIfug",
+                "title": "4K HDR TV - X93D series",
+                "description": "Our most beautiful 4K HDR TV. Introducing the latest Sony 4K HDR TV - an immersive picture, beautiful design, effortless control. Learn more at: ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/9mnFK2ocF9k/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/9mnFK2ocF9k/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/9mnFK2ocF9k/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Sony",
+                "liveBroadcastContent": "none"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/8upN9PG6N_FLk8Hib52akls-tpo\"",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "yAMFLdArZCI"
+            },
+            "snippet": {
+                "publishedAt": "2014-09-03T15:00:23.000Z",
+                "channelId": "UCVjS9AuBloqJJjhsy3vIfug",
+                "title": "Sony Sports Walkman® NWZ-WS610 series Official Video",
+                "description": "Music while you work out: Wearable Waterproof Walkman® WS610 series now with Bluetooth® wireless technology. It gives you extra choice for your tunes by ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/yAMFLdArZCI/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/yAMFLdArZCI/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/yAMFLdArZCI/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Sony",
+                "liveBroadcastContent": "none"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/cQQpx4_cNFBETlQCZ6tdSS_obfY\"",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "o9P9EoG0jMs"
+            },
+            "snippet": {
+                "publishedAt": "2015-06-24T07:45:53.000Z",
+                "channelId": "UCVjS9AuBloqJJjhsy3vIfug",
+                "title": "PlayMemories Camera Apps \"Time-lapse\" & \"Angle Shift Add-on\"",
+                "description": "You can easily add pan, tilt, zoom and other effects to your time-lapse images — in the camera without extra equipment or computer editing. The high-resolution ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/o9P9EoG0jMs/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/o9P9EoG0jMs/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/o9P9EoG0jMs/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Sony",
+                "liveBroadcastContent": "none"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/rA1h6Dw8rXjzr-AukGYlEAstJfE\"",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "zb8UH0liZW8"
+            },
+            "snippet": {
+                "publishedAt": "2015-02-12T01:05:11.000Z",
+                "channelId": "UCVjS9AuBloqJJjhsy3vIfug",
+                "title": "BRAVIA  4K Processor X1™",
+                "description": "Sony's powerful new 4K Processor X1™ brings you stunning picture quality – whatever you're watching and with any image source. 4K or HD… TV broadcasts ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/zb8UH0liZW8/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/zb8UH0liZW8/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/zb8UH0liZW8/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Sony",
+                "liveBroadcastContent": "none"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/tPvGo-tD-36vEEUfB3PbfKX3DqE\"",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "7RyiS-mrp1c"
+            },
+            "snippet": {
+                "publishedAt": "2014-04-21T10:01:55.000Z",
+                "channelId": "UCVjS9AuBloqJJjhsy3vIfug",
+                "title": "α7S(A7S): Low Light Demonstration (ISO 1600- 409600) (from Sony: Official Video Release)",
+                "description": "Sony's α7S Full-Frame Camera Realizes a New World of Imaging Expression-Features newly developed, wide dynamic range sensor with awe-inspiring ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/7RyiS-mrp1c/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/7RyiS-mrp1c/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/7RyiS-mrp1c/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Sony",
+                "liveBroadcastContent": "none"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/NX7pLZecGg8uQEE6qNz4XXThsOM\"",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "zHGd0RWoZro"
+            },
+            "snippet": {
+                "publishedAt": "2015-12-18T00:49:06.000Z",
+                "channelId": "UCVjS9AuBloqJJjhsy3vIfug",
+                "title": "PlayMemories Camera Apps \"Sky HDR\"",
+                "description": "This application lets you optimize the exposure when you shoot scenes containing vastly different brightness levels, such as dark landscapes with the sun in a ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/zHGd0RWoZro/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/zHGd0RWoZro/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/zHGd0RWoZro/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Sony",
+                "liveBroadcastContent": "none"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/UGxkyqTSL76eZQnbKOoAp0UAaiw\"",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "M0SfdonL6mk"
+            },
+            "snippet": {
+                "publishedAt": "2014-01-07T01:00:00.000Z",
+                "channelId": "UCVjS9AuBloqJJjhsy3vIfug",
+                "title": "α5000 from Sony: Official Video Release (Concept)",
+                "description": "Introducing the α5000, the world's lightest interchangeable-lens digital camera*. Offering high image quality via a large APS-C image sensor with approx.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/M0SfdonL6mk/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/M0SfdonL6mk/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/M0SfdonL6mk/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Sony",
+                "liveBroadcastContent": "none"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/m8XdpC1THD6aVg23NRg-LvQFS30\"",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "hEYhkvZEVN4"
+            },
+            "snippet": {
+                "publishedAt": "2014-01-07T01:00:00.000Z",
+                "channelId": "UCVjS9AuBloqJJjhsy3vIfug",
+                "title": "Sample movie for Sony 4K Camcorder FDR-AX100",
+                "description": "Small enough for one-handed shooting, yet powerful enough to record movies in the revolutionary 4K standard, the remarkable new FDR-AX100 is packed with ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/hEYhkvZEVN4/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/hEYhkvZEVN4/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/hEYhkvZEVN4/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Sony",
+                "liveBroadcastContent": "none"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/Hv5xwph5LIX99THEZeQDO2JeFDw\"",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "ASiNiZRTyBs"
+            },
+            "snippet": {
+                "publishedAt": "2013-02-20T04:30:14.000Z",
+                "channelId": "UCVjS9AuBloqJJjhsy3vIfug",
+                "title": "SLT-A58 from Sony: Official Video Release",
+                "description": "Introducing the SLT-A58, for first-time interchangeable-lens camera users, which houses a new Exmor APS HD CMOS sensor with approx. 20.1 effective ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/ASiNiZRTyBs/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/ASiNiZRTyBs/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/ASiNiZRTyBs/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Sony",
+                "liveBroadcastContent": "none"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/VBDSDkynC5wZscRM8Pw6Or5qMAo\"",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "cfMiyFvC7hY"
+            },
+            "snippet": {
+                "publishedAt": "2013-02-20T04:30:10.000Z",
+                "channelId": "UCVjS9AuBloqJJjhsy3vIfug",
+                "title": "NEX-3N from Sony: Official Video Release",
+                "description": "Introducing NEX-3N. Included in its remarkably compact body is a large APS-C image sensor for superb image quality and convenient built-in flash.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/cfMiyFvC7hY/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/cfMiyFvC7hY/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/cfMiyFvC7hY/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Sony",
+                "liveBroadcastContent": "none"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/FxBEMzP-34uxyByalpScn_s18z4\"",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "qBBt5ig6uvA"
+            },
+            "snippet": {
+                "publishedAt": "2017-02-16T08:02:01.000Z",
+                "channelId": "UCVjS9AuBloqJJjhsy3vIfug",
+                "title": "SWORD ART ONLINE THE MOVIE Ordinal Scale Meets Sony Hi-Res Audio",
+                "description": "Japanese Below: \"Sword Art Online The Movie - Ordinal Scale -\" meets Sony Hi-Res headphones \"h.ear on™ Wireless NC MDR-100ABN (CINNABAR RED)\" ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/qBBt5ig6uvA/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/qBBt5ig6uvA/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/qBBt5ig6uvA/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Sony",
+                "liveBroadcastContent": "none"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/11MP6qZ55yNnlxv1SFCpBxUiHyw\"",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "W_fb_NglnbU"
+            },
+            "snippet": {
+                "publishedAt": "2009-05-13T08:22:04.000Z",
+                "channelId": "UCVjS9AuBloqJJjhsy3vIfug",
+                "title": "ターミネーター４　予告編",
+                "description": "2009年6月13日より上映開始。",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/W_fb_NglnbU/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/W_fb_NglnbU/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/W_fb_NglnbU/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Sony",
+                "liveBroadcastContent": "none"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/sg9hJT5DI09mLGFzn10LA54kbkA\"",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "-PPSKMzqJ8I"
+            },
+            "snippet": {
+                "publishedAt": "2014-05-01T09:00:04.000Z",
+                "channelId": "UCVjS9AuBloqJJjhsy3vIfug",
+                "title": "α77 II from Sony: Official Video Release",
+                "description": "Introducing the Sony's α77 II interchangeable-lens digital camera with the world's highest number of AF points*1 in a newly developed 79-point*2 ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/-PPSKMzqJ8I/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/-PPSKMzqJ8I/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/-PPSKMzqJ8I/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Sony",
+                "liveBroadcastContent": "none"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/zO6AiACBKzmWlt7Dn5xX4oepg5A\"",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "BOx0KfbmZTY"
+            },
+            "snippet": {
+                "publishedAt": "2013-10-16T06:06:01.000Z",
+                "channelId": "UCVjS9AuBloqJJjhsy3vIfug",
+                "title": "RX10 official release",
+                "description": "Eyes Uncompromised Optical brilliance compressed to perfection RX10 realises high image quality with a large aperture Carl Zeiss Vario-Sonnar T* lens that ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/BOx0KfbmZTY/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/BOx0KfbmZTY/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/BOx0KfbmZTY/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Sony",
+                "liveBroadcastContent": "none"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/vGUmPPUU0LCztxKNsn1Em-Khe_A\"",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "rzh1cCn6pQc"
+            },
+            "snippet": {
+                "publishedAt": "2014-08-08T07:26:57.000Z",
+                "channelId": "UCVjS9AuBloqJJjhsy3vIfug",
+                "title": "PXW-X70 (1.0-type CMOS Compact Solid-State Memory Camcorder) Functional Video",
+                "description": "The PXW-X70 is a compact, lightweight XDCAM camcorder with professional features including a high-sensitivity 1.0-type CMOS image sensor. It delivers ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/rzh1cCn6pQc/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/rzh1cCn6pQc/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/rzh1cCn6pQc/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Sony",
+                "liveBroadcastContent": "none"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/xzxM_ZpWTKZWEODhojVqUFomtu0\"",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "vC5rKPlgXSU"
+            },
+            "snippet": {
+                "publishedAt": "2012-03-16T08:35:27.000Z",
+                "channelId": "UCVjS9AuBloqJJjhsy3vIfug",
+                "title": "α57 from Sony: Official Video Release",
+                "description": "Sony's successor to the A55 — the A57 — makes its debut! Featuring a quality design based on the A65, it incorporates proprietary advances like Translucent ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/vC5rKPlgXSU/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/vC5rKPlgXSU/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/vC5rKPlgXSU/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Sony",
+                "liveBroadcastContent": "none"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/Zy7jGY-DhTB6uKq8nNeYnFD3p6k\"",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "NJ-b8yMoYyM"
+            },
+            "snippet": {
+                "publishedAt": "2014-06-19T08:07:02.000Z",
+                "channelId": "UCVjS9AuBloqJJjhsy3vIfug",
+                "title": "発掘！アーティスト　これが「絵画」!? 本物さながらの金魚アート",
+                "description": "アーティストのインタビューは以下でご覧いただけます。 Sony Select 発掘！アーティスト 「これが『絵画』!? 本物さながらの金魚アート」 http://my...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/NJ-b8yMoYyM/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/NJ-b8yMoYyM/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/NJ-b8yMoYyM/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Sony",
+                "liveBroadcastContent": "none"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/rgLjWY0IU7ULzL66-g6HV0AXS7o\"",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "cS5io-DhkNY"
+            },
+            "snippet": {
+                "publishedAt": "2016-08-01T00:08:11.000Z",
+                "channelId": "UCVjS9AuBloqJJjhsy3vIfug",
+                "title": "In-car Smartphone Remote RM-X7BT for Android™ and iPhone",
+                "description": "Bring your smartphone and car stereo together to easily control calls, music and more. This in-car smartphone remote with Bluetooth® has voice control and an ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/cS5io-DhkNY/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/cS5io-DhkNY/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/cS5io-DhkNY/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Sony",
+                "liveBroadcastContent": "none"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/imV8y9OW4M1Lfc2mb5_IBnOAcVs\"",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "bTjxBl1fOq0"
+            },
+            "snippet": {
+                "publishedAt": "2013-08-27T05:23:36.000Z",
+                "channelId": "UCVjS9AuBloqJJjhsy3vIfug",
+                "title": "NEX-5T from Sony: Official Video Release",
+                "description": "The slim, stylish NEX-5T interchangeable-lens camera provides high image quality, high performance and a new NFC(Near Field Communications) function for ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/bTjxBl1fOq0/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/bTjxBl1fOq0/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/bTjxBl1fOq0/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Sony",
+                "liveBroadcastContent": "none"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/qduBC0qyWUHc-1YyYoR3Qo09ss8\"",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "wgAawPe3ajM"
+            },
+            "snippet": {
+                "publishedAt": "2016-12-19T17:43:53.000Z",
+                "channelId": "UCVjS9AuBloqJJjhsy3vIfug",
+                "title": "How the Sony Creative Center Designed Props for Passengers",
+                "description": "Members of the Sony Creative Center team share their stories about how they conceptualized props for “Passengers,” a science fiction thriller set in the future.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/wgAawPe3ajM/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/wgAawPe3ajM/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/wgAawPe3ajM/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Sony",
+                "liveBroadcastContent": "none"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/xehAYJXTOFoNYzI0-AC_dp_umgU\"",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "TjpWaG6Lnhg"
+            },
+            "snippet": {
+                "publishedAt": "2011-08-23T13:04:49.000Z",
+                "channelId": "UCVjS9AuBloqJJjhsy3vIfug",
+                "title": "NEX-7 from Sony: Official Video Release [Full HD 1080p]",
+                "description": "α Global Portal (β version): http://www.sony.net/Products/ilc/",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/TjpWaG6Lnhg/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/TjpWaG6Lnhg/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/TjpWaG6Lnhg/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Sony",
+                "liveBroadcastContent": "none"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/52r4yLdlE1XH0d2kB4VO7gWHB00\"",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "y01qwUIZIcw"
+            },
+            "snippet": {
+                "publishedAt": "2012-10-01T10:00:14.000Z",
+                "channelId": "UCVjS9AuBloqJJjhsy3vIfug",
+                "title": "PlayMemories Camera Apps　\"Picture Effect+\"",
+                "description": "This adds six new effects to complement the ones that came with your camera for even greater photographic expression: • Partial Color+ changes the image into ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/y01qwUIZIcw/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/y01qwUIZIcw/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/y01qwUIZIcw/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Sony",
+                "liveBroadcastContent": "none"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/tiOGrO7V9Xze_O_4v_QN8G8EOFg\"",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "-bkJczcFLaI"
+            },
+            "snippet": {
+                "publishedAt": "2017-01-05T01:02:28.000Z",
+                "channelId": "UCVjS9AuBloqJJjhsy3vIfug",
+                "title": "Sony Headphones MDR-XB950N1 MDR-XB950B1 Official Product Video",
+                "description": "Learn more about MDR-XB950N1 : http://www.sony.net/mdr-xb950n1/ The MDR-XB950N1 and MDR-XB950B1 are EXTRA BASS™ wireless headphones.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/-bkJczcFLaI/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/-bkJczcFLaI/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/-bkJczcFLaI/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Sony",
+                "liveBroadcastContent": "none"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/hwtnyK_Z7iqqY3Qq1xaB-0OFmW0\"",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "KiHTcwygZyg"
+            },
+            "snippet": {
+                "publishedAt": "2013-09-06T06:09:22.000Z",
+                "channelId": "UCVjS9AuBloqJJjhsy3vIfug",
+                "title": "PXW-Z100 (XDCAM 4K Handheld Camcorder)",
+                "description": "English below: PXW-Z100は、4K解像度（4096×2160 60p）での高画質撮影が可能なXDCAM 業務用ハンディカムコーダーです。 機動性の高いレンズ一体型カメラで4...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/KiHTcwygZyg/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/KiHTcwygZyg/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/KiHTcwygZyg/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Sony",
+                "liveBroadcastContent": "none"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/uiHmLGdTWjfXV4zVzVJw7ewKJpk\"",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "W35Bp0Tu6VA"
+            },
+            "snippet": {
+                "publishedAt": "2013-10-08T04:30:03.000Z",
+                "channelId": "UCVjS9AuBloqJJjhsy3vIfug",
+                "title": "VAIO - VAIO®Fit multi-flip™ PC - Product overview video",
+                "description": "Sony VAIO® Fit multi-flip™ PC is designed to maximize both laptop usability and touch operation. By flipping and converting between laptop, tablet and viewer ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/W35Bp0Tu6VA/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/W35Bp0Tu6VA/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/W35Bp0Tu6VA/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Sony",
+                "liveBroadcastContent": "none"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/dKglNST9zj_4gYUMcoaScVhiS84\"",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "wy8TAGFC95o"
+            },
+            "snippet": {
+                "publishedAt": "2014-09-16T01:00:01.000Z",
+                "channelId": "UCVjS9AuBloqJJjhsy3vIfug",
+                "title": "4D FOCUS for A5100 from Sony: Official Video Release",
+                "description": "\"SONY SPELLS THE BEGINNING OF A NEW AUTOFOCUS ERA IN 1985, AUTOFOCUS CHANGED PHOTOGRAPHY FOREVER. IN 2014, 4D FOCUS WILL DO ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/wy8TAGFC95o/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/wy8TAGFC95o/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/wy8TAGFC95o/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Sony",
+                "liveBroadcastContent": "none"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/trGKLtwgbHZJbPwVGrEV7vG5ors\"",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "THTmB4bF4Jg"
+            },
+            "snippet": {
+                "publishedAt": "2015-05-07T00:36:02.000Z",
+                "channelId": "UCVjS9AuBloqJJjhsy3vIfug",
+                "title": "Sony BRAVIA - How to hang your X90C series on the wall",
+                "description": "Click to watch the video \"BRAVIA X9000C/X9100C series Floating Style\" : https://www.youtube.com/watch?v=x5iczT4f17Q Click to know features about Sony ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/THTmB4bF4Jg/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/THTmB4bF4Jg/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/THTmB4bF4Jg/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Sony",
+                "liveBroadcastContent": "none"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/kSKPQKTrPajgOac7Eyk865kFQk4\"",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "0RNdhBwM3Rc"
+            },
+            "snippet": {
+                "publishedAt": "2016-09-02T05:23:41.000Z",
+                "channelId": "UCVjS9AuBloqJJjhsy3vIfug",
+                "title": "XAV-AX100 Car AV Receiver with Apple CarPlay & Android Auto™",
+                "description": "This double-din AV centre connects with your Apple or Android™ handset for effortless voice control while you drive. Built-in 4 x 55W amplification delivers clear ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/0RNdhBwM3Rc/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/0RNdhBwM3Rc/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/0RNdhBwM3Rc/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Sony",
+                "liveBroadcastContent": "none"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/F8kW35iJYoY1L9yI35Q2kfjKgRw\"",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "nI1kvSKzm6k"
+            },
+            "snippet": {
+                "publishedAt": "2015-04-13T00:53:23.000Z",
+                "channelId": "UCVjS9AuBloqJJjhsy3vIfug",
+                "title": "PXW-X70 Firmware Version2.0 Functional Video",
+                "description": "This is Functional Video for new firmware version(ver.2.0) of PXW-X70 (1.0-type sensor palmsize comcorder) . Network function(Streaming and FTP transferring) ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/nI1kvSKzm6k/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/nI1kvSKzm6k/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/nI1kvSKzm6k/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Sony",
+                "liveBroadcastContent": "none"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/e-AQEYD0ECSohJQ5bye_E8fyI_c\"",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "r1hBtQbTXJo"
+            },
+            "snippet": {
+                "publishedAt": "2015-05-01T05:32:34.000Z",
+                "channelId": "UCVjS9AuBloqJJjhsy3vIfug",
+                "title": "HXR-MC2500 Functional Video",
+                "description": "This is Functional Video for HXR-MC2500 (Shoulder-style HD camcorder with a professional look and shooting style which is ideal for weddings, corporate ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/r1hBtQbTXJo/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/r1hBtQbTXJo/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/r1hBtQbTXJo/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Sony",
+                "liveBroadcastContent": "none"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/h1iPQgy6U1HciqISqAVBNESX4T4\"",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "xYrHU8dVYyU"
+            },
+            "snippet": {
+                "publishedAt": "2011-08-23T12:57:35.000Z",
+                "channelId": "UCVjS9AuBloqJJjhsy3vIfug",
+                "title": "NEX-5N from Sony: Official Video Release [Full HD 1080p]",
+                "description": "α Global Portal (β version): http://www.sony.net/Products/ilc/ Seize the moment, with beauty and grace Before those once-in-a lifetime moments slip away, ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/xYrHU8dVYyU/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/xYrHU8dVYyU/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/xYrHU8dVYyU/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Sony",
+                "liveBroadcastContent": "none"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/QmDds-bYJuuBCortmgC587qsES8\"",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "kgz6EH4w41g"
+            },
+            "snippet": {
+                "publishedAt": "2013-04-24T04:00:26.000Z",
+                "channelId": "UCVjS9AuBloqJJjhsy3vIfug",
+                "title": "Cyber-shot DSC-HX50V: Official Video Release",
+                "description": "There for the unmissable. Introducing the new Cyber-shot DSC-HX50V/DSC-HX50. *GPS function is available on DSC-HX50V. Availability of models depends ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/kgz6EH4w41g/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/kgz6EH4w41g/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/kgz6EH4w41g/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Sony",
+                "liveBroadcastContent": "none"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/bpYwZ6gYuDx37Gmx9wExYC2I334\"",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "g8DPvvERmcg"
+            },
+            "snippet": {
+                "publishedAt": "2013-11-07T07:37:44.000Z",
+                "channelId": "UCVjS9AuBloqJJjhsy3vIfug",
+                "title": "「スマートに撮る方法」DSC-QX10／100",
+                "description": "ガジェッタ―瀬戸弘司さんおすすめ！サイバーショット ″レンズスタイルカメラ″ QXシリーズの楽しみかた http://www.sony.jp/msc/enjoy/products/feature/20131...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/g8DPvvERmcg/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/g8DPvvERmcg/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/g8DPvvERmcg/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Sony",
+                "liveBroadcastContent": "none"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/LyVCNVVG1sf1ZSJcpzmcADW-ZnA\"",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "V3AZIIR0VFo"
+            },
+            "snippet": {
+                "publishedAt": "2016-10-18T08:24:28.000Z",
+                "channelId": "UCVjS9AuBloqJJjhsy3vIfug",
+                "title": "Sony Headphones MDR-1000X Official Product Video-Function",
+                "description": "Learn more about 1000X : http://www.sony.net/mdr-1000x?cid=ban-na-432 MDR-1000X is the premium headphones with industry-leading* noise cancellation, ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/V3AZIIR0VFo/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/V3AZIIR0VFo/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/V3AZIIR0VFo/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Sony",
+                "liveBroadcastContent": "none"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/l2PzLDuuJsAYSrVXVnyu3aZC3f0\"",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "Te49HwmVOG8"
+            },
+            "snippet": {
+                "publishedAt": "2016-01-06T02:18:32.000Z",
+                "channelId": "UCVjS9AuBloqJJjhsy3vIfug",
+                "title": "BRAVIA Design philosophy - Slice of Living -",
+                "description": "You'll be moved by what's playing on your Sony TV, but the room will stay as relaxing as ever. The secret: new product design that takes cues from interior ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/Te49HwmVOG8/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/Te49HwmVOG8/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/Te49HwmVOG8/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Sony",
+                "liveBroadcastContent": "none"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/MuadLNgP1MfIBO8FARO1_rEWAtE\"",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "ZWAY9LJU2vc"
+            },
+            "snippet": {
+                "publishedAt": "2014-09-12T08:03:40.000Z",
+                "channelId": "UCVjS9AuBloqJJjhsy3vIfug",
+                "title": "PXW-FS7 Official Promotion Movie",
+                "description": "\"The PXW-FS7 XDCAM Series camera can be operated by just a single person in situations where the extraordinary flexibility of its Alpha Mount System and ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/ZWAY9LJU2vc/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/ZWAY9LJU2vc/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/ZWAY9LJU2vc/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Sony",
+                "liveBroadcastContent": "none"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/XtAbfVe-3fqNDVhDfk1gBQnK3Hs\"",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "Y_58hm80Xgk"
+            },
+            "snippet": {
+                "publishedAt": "2015-06-22T07:25:02.000Z",
+                "channelId": "UCVjS9AuBloqJJjhsy3vIfug",
+                "title": "\"Smart B-Trainer\" Overview Video(English)",
+                "description": "Smart B-Trainer consists of the SSE-BTR1 headphone-integrated device that records a running log and plays back music in response to your workout when ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/Y_58hm80Xgk/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/Y_58hm80Xgk/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/Y_58hm80Xgk/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Sony",
+                "liveBroadcastContent": "none"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/1Whyr-rOt3ZKkvbbsghQKzhCUPE\"",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "gO3tiBwP8hw"
+            },
+            "snippet": {
+                "publishedAt": "2014-11-20T01:48:10.000Z",
+                "channelId": "UCVjS9AuBloqJJjhsy3vIfug",
+                "title": "Sony 4K Security Camera Applications",
+                "description": "Video surveillance applications with Sony's 4K imaging technology -- a resolution that is four times greater than Full HD (1080p) resolution -- will start to redefine ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/gO3tiBwP8hw/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/gO3tiBwP8hw/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/gO3tiBwP8hw/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Sony",
+                "liveBroadcastContent": "none"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/CLYO8yYZmo1ZoeWXRfhQU1-BP1c\"",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "vyy-4DCLeCM"
+            },
+            "snippet": {
+                "publishedAt": "2016-10-06T04:39:34.000Z",
+                "channelId": "UCVjS9AuBloqJJjhsy3vIfug",
+                "title": "Sony BRAVIA Z9D series - 4K HDR TV – Ultra HD TV",
+                "description": "Discover Extreme Reality. This 4K HDR TV will take your breath away with contrast, colours, textures and detail never before possible on our screen. View more ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/vyy-4DCLeCM/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/vyy-4DCLeCM/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/vyy-4DCLeCM/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Sony",
+                "liveBroadcastContent": "none"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/Eq34vojRtfKAHGrjFc4pcWVhw34\"",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "lxLJ9oPhaxw"
+            },
+            "snippet": {
+                "publishedAt": "2017-04-10T20:20:53.000Z",
+                "channelId": "UCVjS9AuBloqJJjhsy3vIfug",
+                "title": "Peter Gould & Vince Gilligan Talk About the Origins of \"Better Call Saul\"",
+                "description": "Don't miss season three of \"Better Call Saul,\" premiering on Monday, April 10 at 10/9c on AMC.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/lxLJ9oPhaxw/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/lxLJ9oPhaxw/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/lxLJ9oPhaxw/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Sony",
+                "liveBroadcastContent": "none"
+            }
+        }
+    ]
+}

@@ -710,3 +710,7 @@
 {"level":"info","message":"Server Started at port no 4200","timestamp":"2017-08-02T07:38:01.616Z"}
 {"level":"error","message":"unconnected","timestamp":"2017-08-02T12:32:48.776Z"}
 {"level":"info","message":"Server Started at port no 4200","timestamp":"2017-08-02T12:32:48.777Z"}
+{"level":"error","message":"unconnected","timestamp":"2017-08-08T05:02:54.424Z"}
+{"level":"info","message":"Server Started at port no 4200","timestamp":"2017-08-08T05:02:54.426Z"}
+{"level":"error","message":"unconnected","timestamp":"2017-08-08T05:03:19.780Z"}
+{"level":"info","message":"Server Started at port no 4200","timestamp":"2017-08-08T05:03:19.781Z"}

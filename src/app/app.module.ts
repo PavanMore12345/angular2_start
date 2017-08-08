@@ -27,13 +27,14 @@ import { WishlistComponent } from './wishlist/wishlist.component';
 import { AnagramComponent } from './anagram/anagram.component';
 import { MediaplayerComponent } from './mediaplayer/mediaplayer.component';
 import { YoutubePlayerModule } from 'ng2-youtube-player';
+import { Ng2SearchPipeModule } from 'ng2-search-filter'
 // import { ImagecropperComponent } from './imagecropper/imagecropper.component';
 // import { Ng2CropperComponent } from './ng2-cropper/ng2-cropper.component';
 // import {Ng2CropperjsModule} from "./ng2-cropper/ng2-cropperjs.module";
   // import {BrowserAnimationsModule} from '@angular/platform-browser/animations'
 //
 const appRoutes : Routes = [
-  { path : '' , component : HomeComponent },
+  // { path : '' , component : HomeComponent },
   { path : 'register' , component : RegisterComponent },
   { path:'dashboard',  component:DashboardComponent},
   { path:'mobileinfo',  component:MobileinfoComponent},
@@ -75,6 +76,7 @@ const appRoutes : Routes = [
     FormsModule,
     YoutubePlayerModule ,
     HttpModule,
+    Ng2SearchPipeModule,
     ToastModule.forRoot(),
     PopupModule.forRoot(),
     RouterModule.forRoot(appRoutes, { useHash: true})

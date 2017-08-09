@@ -1,32 +1,7 @@
-<!-- <div class="container">
-      <section class="panel">
-        <div class="panel-heading">Angular (+2,4) Youtube Player Component</div>
-        <div *ngFor="let data of youtubedata"  class="panel-body">
-          <youtube-player  [videoId]="data.videoId"   (ready)="savePlayer($event)" (change)="onStateChange($event)" >
-          </youtube-player>
-        </div>
-      </section>
 
-      <div class="col-md-12">
-        <div class="btn-group" role="group">
-          <button type="button" class="btn btn-default" (click)="playVideo()">Play</button>
-          <button type="button" class="btn btn-default" (click)="pauseVideo()">Pause</button>
-        </div>
-      </div>
-
-      <div class="col-md-12">
-        <section class="panel">
-          <div class="panel-title">Player State</div>
-          <div class="panel-body">
-            <pre>{{ ytEvent }}</pre>
-          </div>
-        </section>
-      </div>
-    </div> -->
     <app-navbar></app-navbar>
-    <div  class="col-lg-12">
-      <div style="z-index: 2;
-    box-shadow: 3px 0 3px -1px rgba(5,2,2,.15);height:650px;overflow-x:hidden;margin-top:64px;"  class="col-lg-4 col-sm-4 col-md-4">
+    <div  class="col-lg-12" style="overflow:hidden;position:fixed;">
+      <div style="z-index: 2; box-shadow: 3px 0 3px -1px rgba(5,2,2,.15);height:650px;overflow-x:hidden;margin-top:64px;"  class="col-lg-4 col-sm-4 col-md-4">
    <input style="margin:auto;display:block;height:6%;width:100%;" placeholder="search.." [(ngModel)] = "searchTerm" (ngModelChange) = "search()"/>
         <div><h3 style="text-align:center;" (click)="googleclick()">GoogleVideos</h3></div>
          <div  *ngIf="googlevalue">
@@ -75,8 +50,8 @@
            <img src="{{playImage}}"/>
             </div>
             <!-- <div class="btn-group" role="group"> -->
-            <img alt="SFSd" src="assets/icons8-Play Filled_30.png" (click)="playVideo()"/>
-            <img src="assets/icons8-Pause Filled_30.png" (click)="pauseVideo()">
+            <img alt="SFSd" id="play-button" (click)="playButton()" src="assets/icons8-Play Filled_30.png"/>
+            <img  style="width:30px" (click)="stopButton()" src="assets/26445.png" id="pause-button">
 
               <!-- <button type="button" class="btn btn-default" (click)="playVideo()">Play</button>
               <button type="button" class="btn btn-default" (click)="pauseVideo()">Pause</button> -->
@@ -86,15 +61,15 @@
          </div>
          <div>
           <!-- <h3 style="background-color:black;color:white;margin-top:0px">my playlist</h3> -->
-          <div  style="overflow-x:hidden;height:600px;">
+          <div  style="overflow-x:hidden;height:365px;margin-top:-35px;">
              <div *ngFor="let data of playlistdata" >
-                <div id="playlist" class="col-lg-12" style="border:1px solid black;padding:5px;"  (click)="mediaPlayer(data)">
+                <div id="playlist" class="col-lg-12" style="padding:5px;"  (click)="mediaPlayer(data)">
                <div style="float:right"><span class="glyphicon glyphicon-trash" (click)="deleteData(data)"></span>
                </div>
-              <div class="col-lg-6"  >
-              <img src="{{data.snippet.thumbnails.default.url}}"/>
+              <div class="col-lg-3">
+              <img style="width:100px;" src="{{data.snippet.thumbnails.default.url}}"/>
                 </div>
-                <div style="margin-top:-10px;padding-left:29px;" class="col-lg-6">
+                <div style="margin-top:-10px;padding-left:29px;" class="col-lg-9">
                   {{data.snippet.title}}
                 </div>
              </div>
@@ -108,19 +83,22 @@
          <!-- <youtube-player  [videoId]='youplay'  (ready)="savePlayer($event)"
             (change)="onStateChange($event)">
          </youtube-player> -->
-         <div style="width:360px;height:300px">
-          <iframe width="360" height="300" [src]="url"  frameborder="0" allowfullscreen></iframe>
+         <div style="width:360px;height:250px">
+            <!-- <video id="myVideo" width="360" height="300"> -->
+            <!-- <source src="url" type="video/mp4"> -->
+          <iframe width="360" height="250" [src]="url"  frameborder="0" allowfullscreen></iframe>
+       <!-- </video> -->
        </div>
-         <div  style="height:500px;overflow-x:hidden;">
+         <div  style="overflow:auto;height:365px;box-sizing: border-box;margin-top:19px;">
          <div *ngFor="let data of playedInfo" >
             <div id="history" class="col-lg-12" style="border:1px solid black;padding:10px;"  (click)="mediaPlayer(data)">
            <div style="float:right"><span class="glyphicon glyphicon-trash" (click)="deleteDataplay(data)"></span>
            </div>
-           <div  class="col-lg-6">
+           <div  class="col-lg-8">
              {{data.snippet.title}}
            </div>
-          <div class="col-lg-6" style="margin-top:-10px;padding-left:29px;" >
-          <img src="{{data.snippet.thumbnails.default.url}}"/>
+          <div class="col-lg-4" style="margin-top:-10px;" >
+          <img style="margin-left: -25px;width: 100px;" src="{{data.snippet.thumbnails.default.url}}"/>
             </div>
          </div>
          </div>

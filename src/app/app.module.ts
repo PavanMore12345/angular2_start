@@ -27,7 +27,8 @@ import { WishlistComponent } from './wishlist/wishlist.component';
 import { AnagramComponent } from './anagram/anagram.component';
 import { MediaplayerComponent } from './mediaplayer/mediaplayer.component';
 import { YoutubePlayerModule } from 'ng2-youtube-player';
-import { Ng2SearchPipeModule } from 'ng2-search-filter'
+import { Ng2SearchPipeModule } from 'ng2-search-filter';
+import { MaterialModule } from "@angular/material";
 // import { ImagecropperComponent } from './imagecropper/imagecropper.component';
 // import { Ng2CropperComponent } from './ng2-cropper/ng2-cropper.component';
 // import {Ng2CropperjsModule} from "./ng2-cropper/ng2-cropperjs.module";
@@ -79,6 +80,7 @@ const appRoutes : Routes = [
     Ng2SearchPipeModule,
     ToastModule.forRoot(),
     PopupModule.forRoot(),
+    MaterialModule.forRoot(),
     RouterModule.forRoot(appRoutes, { useHash: true})
   ],
   providers: [PostsService,FilterdataPipe,SortByPipe],

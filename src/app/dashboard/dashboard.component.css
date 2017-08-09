@@ -45,6 +45,19 @@
     height:300px;
     margin-top:10px;
 }
+#specs
+{
+   margin-top: 10px;
+}
+#noSpecs
+{
+   margin-top:200px;
+   color:red
+}
+#h2specs
+{
+   text-align: center;
+}
 /*img{
     filter: blur(20px);
     vertical-align:top;

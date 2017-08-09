@@ -1,26 +1,26 @@
-
-<app-navbar></app-navbar>
-<div class="col-sm-2 col-sm-2 col-sm-2" >
- <app-sidebar  (clicked)="onClicked($event)"></app-sidebar>
+<app-navbar>
+</app-navbar>
+<div class="col-sm-2 col-sm-2 col-sm-2">
+  <app-sidebar (clicked)="onClicked($event)"></app-sidebar>
 </div>
-<!-- <div class="row"> -->
 <div class="col-xs-8 col-sm-9 col-md-9 col-lg-9" style="margin-top:60px;">
-<div class="col-xs-8 col-sm-6 col-md-4 col-lg-4"  *ngFor="let data of mobilerating|filterdata:arryd">
+  <div class="col-xs-8 col-sm-6 col-md-4 col-lg-4" *ngFor="let data of mobilerating|filterdata:arryd">
     <div class="image" id="img22">
-<img id="img" src="{{ data.image.small }}"/>
-<div class="overlay">
-    <h2>{{data.name}}</h2>
-    <small style="margin-top:10px"><strong>camera:</strong>{{data.specs.camera}}</small><br>
-    <small style="margin-top:10px" ><strong>company:</strong>{{data.specs.manufacturer}}</small><br>
-    <small style="margin-top:10px"><strong>os:</strong>{{data.specs.os}}</small><br>
-<small style="margin-top:10px"><strong>storage:</strong>{{data.specs.storage}}</small><br>
-<small style="margin-top:10px"><strong>rating:</strong>{{data.rating}}</small><br>
-<!-- <a [routerLink]="['/mobileinfo', data.id]"> -->
-    <button type="button" (click)="mobileInfo(data)"  class="btn btn-primary">buy</button>
-</div>
-</div>
-</div>
-<div *ngIf="arryd?.length==0" style="margin-top:200px;color:red">
-   <marquee> <h2 style="text-align:center">No Device of this specification.</h2></marquee>
-</div>
+      <img id="img" src="{{ data.image.small }}" />
+      <div class="overlay">
+        <h2>{{data.name}}</h2>
+        <small id="specs"><strong>camera:</strong>{{data.specs.camera}}</small><br>
+        <small id="specs"><strong>company:</strong>{{data.specs.manufacturer}}</small><br>
+        <small id="specs"><strong>os:</strong>{{data.specs.os}}</small><br>
+        <small id="specs"><strong>storage:</strong>{{data.specs.storage}}</small><br>
+        <small id="specs"><strong>rating:</strong>{{data.rating}}</small><br>
+        <button type="button" (click)="mobileInfo(data)" class="btn btn-primary">buy</button>
+      </div>
+    </div>
+  </div>
+  <div *ngIf="arryd?.length==0" style="" id="noSpecs">
+    <marquee>
+      <h2 id="h2specs">No Device of this specification.</h2>
+    </marquee>
+  </div>
 </div>

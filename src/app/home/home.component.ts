@@ -15,7 +15,7 @@ export class HomeComponent implements OnInit {
   public user: User;
   constructor(private postsService: PostsService, private toastr: ToastsManager, vcr: ViewContainerRef, private router: Router, private options: ToastOptions)
   {
-    this.options.toastLife = 10000;
+    this.options.toastLife = 1000;
     this.toastr.setRootViewContainerRef(vcr);
   }
 
@@ -28,10 +28,6 @@ export class HomeComponent implements OnInit {
       this.toastr.success("Success", 'logout success');
       localStorage.setItem("logout", JSON.stringify(0));
     }
-    if (JSON.parse(localStorage.getItem("login"))) {
-      this.toastr.error("Oops!", 'Something is wrong');
-      localStorage.setItem("login", JSON.stringify(0));
-    }
   }
   save(model: User, isValid: boolean) {
     console.log(model);
@@ -40,8 +36,7 @@ export class HomeComponent implements OnInit {
         localStorage.setItem("dashboard", JSON.stringify(1));
         this.router.navigate(['/dashboard']);
       } else {
-        localStorage.setItem("login", JSON.stringify(1));
-        window.location.reload();
+      this.toastr.error("Oops!", 'Something is wrong');
       }
     });
   }

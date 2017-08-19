@@ -1,33 +1,32 @@
-.form1
-	{
-    background-color:#F0F0EF;
-    /*border-radius: 25px;*/
-		width:30%;
-		height:auto;
-		padding-left:20px;
-		padding-top:20px;
-		padding-right:20px;
-		padding-bottom:20px;
-		/*background-color: gray;*/
-	margin: 0 auto;
-	margin-top:10%
-	}
-    .firstname
-    {
-        margin: auto;
-        text-align: center;
-        display: block;
-    }
-    #register
-    {
-        margin: auto;
-        text-align: center;
-        display: block;
-        padding-top: 20px;
-    }
-	@media(max-width: 650px) {
-	    .form1
-	    {
-	        width:200px;
-	    }
+.form1 {
+  background-color: #F0F0EF;
+  /*border-radius: 25px;*/
+  width: 30%;
+  height: auto;
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  /*background-color: gray;*/
+  margin: 0 auto;
+  margin-top: 10%
+}
+
+.firstname {
+  margin: auto;
+  text-align: center;
+  display: block;
+}
+
+#register {
+  margin: auto;
+  text-align: center;
+  display: block;
+  padding-top: 20px;
+}
+
+@media(max-width: 650px) {
+  .form1 {
+    width: 200px;
+  }
 }

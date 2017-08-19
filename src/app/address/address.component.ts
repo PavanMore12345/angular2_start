@@ -24,8 +24,8 @@ addressinfo(user:User)
      this.address=user;
      this.address=JSON.stringify(this.address);
      console.log("this adress",this.address);
-      localStorage.setItem("addressBar",this.address);
-       this.router.navigate(['/payamentinfo']);
+     localStorage.setItem("addressBar",this.address);
+     this.router.navigate(['/payamentinfo']);
 
 }
 }

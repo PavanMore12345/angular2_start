@@ -6,3 +6,111 @@
 {
    background-color: rgba(211,95,95,.25);
 }
+#mainDiv
+{
+   overflow:hidden;
+   position:fixed;
+}
+#rowDiv
+{
+   z-index: 2;
+    box-shadow: 3px 0 3px -1px rgba(5,2,2,.15);
+    height:650px;
+    overflow-x:hidden;margin-top:64px;
+}
+#search
+{
+   margin:auto;
+   display:block;
+   height:6%;width:100%;
+}
+#googlevideo
+{
+   text-align:center;
+}
+#history
+{
+   border:1px solid black;
+   padding:10px;
+}
+#playData
+{
+   height:300px;
+   /*border: 1px solid black;*/
+   margin-top:70px;
+}
+#playImage
+{
+   width:320px;
+   height:180px;
+}
+#playlistImage
+{
+   width:30px;
+}
+#playlistInfo
+{
+   overflow-x:hidden;
+   height:365px;
+   margin-top:-35px;
+}
+#delete
+{
+   float:right;
+}
+#playedImage
+{
+   width:100px;
+}
+#playTitle
+{
+   margin-top:-10px;
+   padding-left:29px;
+}
+#historyData
+{
+   margin-top:64px;
+   height:100%;
+   box-shadow: 0px 10px 10px #888888;
+}
+#historyPlayer
+{
+   width:360px;
+   height:250px;
+}
+#historyData1
+{
+   overflow:auto;
+   height:365px;
+   box-sizing: border-box;
+   margin-top:19px;
+}
+#defaultImage
+{
+   margin-left: -25px;
+   width: 100px;
+}
+.hist
+{
+   border:1px solid black;
+   padding:10px;
+}
+#player
+{
+   width:360px;
+   height:250px;
+   /*//background: url("assets/media-player-classic.png");*/
+   /*background-color: black !important;*/
+}
+#playerdiv
+{
+   overflow:auto;
+   height:365px;
+   box-sizing: border-box;
+   margin-top:19px;
+}
+#iframe
+{
+   width:360;
+   height:250;
+}

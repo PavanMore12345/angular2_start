@@ -1,21 +1,29 @@
 <app-navbar></app-navbar>
-<div class="col-md-6" style="margin-top:50px">
-<div  *ngFor="let data of history">
+<div class="col-md-6" id="mainDiv">
+  <div *ngFor="let data of history">
     <popup>
-         Ratings:<input type="number" [(ngModel)]="rating" min="1" max="5">Out Of 5
-        <button type="button" class="btn btn-default" (click)="ratings(data.id,rating)">Save</button>
+      Ratings:<input type="number" [(ngModel)]="rating" min="1" max="5">Out Of 5
+      <button type="button" class="btn btn-default" (click)="ratings(data.id,rating)">Save</button>
     </popup>
-<div id="card" >
-  <h3 id="name">Name:{{data.name}}
+    <div id="card">
+      <h3 id="name">Name:{{data.name}}
    <span class="glyphicon glyphicon-remove" data-toggle="tooltip" title="remove from cart" style="float:right" (click)="remove(data)"></span></h3>
-  <span ><img src="{{ data.image.small }}" style="margin:auto;height:200px;width:150px;display:block;" (click)="popup1(data.id)"/></span>
-  <table id="mobiletable" width="400px">
- <tr> <td><h4>name:</h4></td><td><h4>{{data.name}}</h4></td></tr>
- <tr> <td><h4>price:</h4></td><td><h4>${{data.price}}</h4></td></tr>
-  <!-- <tr> <td><h4>Ratings:</h4></td><td><h4><input type="text" style="width:61px"></h4></td></tr> -->
-</table>
- </div>
-<br>
-<!-- Ratings:<input type="text"> -->
-</div>
+      <span><img src="{{ data.image.small }}" id="smallImage" (click)="popup1(data.id)"/></span>
+      <table id="mobiletable">
+        <tr>
+          <td>
+            <h4>name:</h4></td>
+          <td>
+            <h4>{{data.name}}</h4></td>
+        </tr>
+        <tr>
+          <td>
+            <h4>price:</h4></td>
+          <td>
+            <h4>${{data.price}}</h4></td>
+        </tr>
+      </table>
+    </div>
+    <br>
+  </div>
 </div>

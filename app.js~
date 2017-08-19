@@ -23,12 +23,12 @@ logger.configure({
 });
 var cors = require("cors");
 //var cookieSession = require('cookie-session');
-app.use(require('.todoApp/controller/index.js'));
-app.use(express.static("./public"));
+app.use(require('./database/controller/index.js'));
+app.use(express.static("./dist"));
 //app.use(express.static("./public"));
 
 
-var port = 8040;
+var port = 4200;
 app.listen(port,function () {
   // connect();
   logger.error("unconnected")

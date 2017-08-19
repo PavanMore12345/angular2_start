@@ -6,14 +6,15 @@ import { Component, OnInit,Output,EventEmitter } from '@angular/core';
   styleUrls: ['./sidebar.component.css']
 })
 export class SidebarComponent implements OnInit {
-    mobileData=[{id:'manufacturer',data:['Samsung','Sony','Apple','HTC','Nokia','ZTE']},
-    {id:'storage',data:[16,32]},{id:'os',data:['Windows','Android','iOS']},
-    {id:'camera',data:[5,8,12,15]}];
+    mobileData;
  @Output() clicked=new EventEmitter<any>();
  IsChecked;
   constructor() { }
 
   ngOnInit() {
+     this.mobileData=[{id:'manufacturer',data:['Samsung','Sony','Apple','HTC','Nokia','ZTE']},
+     {id:'storage',data:[16,32]},{id:'os',data:['Windows','Android','iOS']},
+     {id:'camera',data:[5,8,12,15]}];
   }
   onClick(id,value){
       console.log("sidebar");

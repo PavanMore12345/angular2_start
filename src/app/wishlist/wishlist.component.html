@@ -1,30 +1,43 @@
 <app-navbar></app-navbar>
 <div class="col-sm-3 col-md-3 col-lg-3"></div>
-<div class="col-sm-6 col-md-6 col-lg-6" style="margin-top:100px;">
-<div  *ngFor="let data of data1" >
-<div class="row" style="border:1px solid black;margin-top:20px;padding:10px">
-<span class="glyphicon glyphicon-trash" (click)="delete(data)" style="float:right"></span>
-<div class="col-md-6" style="margin-top:22px;">
-<img src="{{ data.image.small }}" style="margin:auto;width:75px;height:90px;display:block;"/>
-</div>
-<div class="col-md-6">
-<table id="mobiletable" width="400px">
-<tr> <td><h4>name:</h4></td><td><h4>{{data.name}}</h4></td></tr>
-<tr> <td><h4>price:</h4></td><td><h4>${{data.price}}</h4></td></tr>
-<tr> <td><h4>Ratings:</h4></td><td><h4>{{data.rating}}</h4></td></tr>
-</table>
-</div>
-<div style="margin-top:10px">
-<button type="button" style="margin:auto;display:block;background:black;color:white" (click)="addtoCart(data)">addtoCart</button>
-</div>
-</div>
-</div>
-<div *ngIf="!wishcount" style="margin-top:200px;color:red">
-<marquee><h2 style="text-align:center">No product in wishlist</h2></marquee>
-</div>
-     <!-- <h4 style="float:left">price:{{data.price}}</h4>
-     <h4 style="float:right">Ratings:{{data.rating}}</h4> -->
-     <!-- <button type="button" >removefromcart</button> -->
-
+<div class="col-sm-6 col-md-6 col-lg-6" id="mainDiv">
+  <div *ngFor="let data of data1">
+    <div class="row" id="dataDiv">
+      <span class="glyphicon glyphicon-trash" (click)="delete(data)" id="trash"></span>
+      <div class="col-md-6" style="margin-top:22px;">
+        <img src="{{ data.image.small }}" id="imagesmall" />
+      </div>
+      <div class="col-md-6">
+        <table id="mobiletable">
+          <tr>
+            <td>
+              <h4>name:</h4></td>
+            <td>
+              <h4>{{data.name}}</h4></td>
+          </tr>
+          <tr>
+            <td>
+              <h4>price:</h4></td>
+            <td>
+              <h4>${{data.price}}</h4></td>
+          </tr>
+          <tr>
+            <td>
+              <h4>Ratings:</h4></td>
+            <td>
+              <h4>{{data.rating}}</h4></td>
+          </tr>
+        </table>
+      </div>
+      <div style="margin-top:10px">
+        <button type="button" id="addtoCart" style="" (click)="addtoCart(data)">addtoCart</button>
+      </div>
+    </div>
   </div>
+  <div *ngIf="!wishcount" id="noProduct">
+    <marquee>
+      <h2 style="text-align:center">No product in wishlist</h2>
+    </marquee>
+  </div>
+</div>
 <div class="col-sm-3 col-md-3 col-lg-3"></div>

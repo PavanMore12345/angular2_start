@@ -1,13 +1,13 @@
 
     <app-navbar></app-navbar>
-    <div  class="col-lg-12" style="overflow:hidden;position:fixed;">
-      <div style="z-index: 2; box-shadow: 3px 0 3px -1px rgba(5,2,2,.15);height:650px;overflow-x:hidden;margin-top:64px;"  class="col-lg-4 col-sm-4 col-md-4">
-   <input style="margin:auto;display:block;height:6%;width:100%;" placeholder="search.." [(ngModel)] = "searchTerm" (ngModelChange) = "search()"/>
-        <div><h3 style="text-align:center;" (click)="googleclick()">GoogleVideos</h3></div>
+    <div  class="col-lg-12" id="mainDiv">
+      <div  id="rowDiv" class="col-lg-4 col-sm-4 col-md-4">
+   <input id="search" placeholder="search.." [(ngModel)] = "searchTerm" (ngModelChange) = "search()"/>
+        <div><h3 id="googlevideo" (click)="googleclick()">GoogleVideos</h3></div>
          <div  *ngIf="googlevalue">
             <div *ngFor="let data of youtubedata |filter:term ">
-            <div id="history" class="col-lg-10" style="border:1px solid black;padding:10px;" (click)="youtube(data)">
-          <div class="col-lg-6" >
+            <div id="history" class="col-lg-10" (click)="youtube(data)">
+          <div class="col-lg-6">
           <img src="{{data.snippet.thumbnails.default.url}}"/>
             </div>
             <div class="col-lg-6">
@@ -16,7 +16,7 @@
          </div>
          </div>
       </div>
-      <div><h3 style="text-align:center;" (click)="sonyclick()">SonyVideos</h3></div>
+      <div><h3 id="googlevideo" (click)="sonyclick()">SonyVideos</h3></div>
       <div  *ngIf="sonyvalue">
          <div *ngFor="let data of sonydata |filter:term">
          <div id="history"  class="col-lg-10" style="border:1px solid black;padding:10px;" (click)="youtube(data)">
@@ -29,10 +29,10 @@
       </div>
       </div>
    </div>
-      <div><h3 style="text-align:center;" (click)="samsungclick()">SamsungVideos</h3></div>
+      <div><h3 id="googlevideo" (click)="samsungclick()">SamsungVideos</h3></div>
       <div *ngIf="samsungvalue">
          <div *ngFor="let data of samsungdata |filter:term">
-         <div id="history" class="col-lg-10" style="border:1px solid black;padding:10px;" (click)="youtube(data)">
+         <div id="history" class="col-lg-10" (click)="youtube(data)">
        <div class="col-lg-6" >
        <img src="{{data.snippet.thumbnails.default.url}}"/>
          </div>
@@ -44,14 +44,17 @@
    </div>
    </div>
       <div class="col-lg-4">
-         <div  style="height:300px;border 1px solid black;margin-top:70px;">
-            <div style="width:320px;height:180px;">
+         <div id="playData">
+            <div id="playImage">
 
            <img src="{{playImage}}"/>
             </div>
             <!-- <div class="btn-group" role="group"> -->
+            <img id="playlistImage" (click)="nextplay()" src="assets/icons8-Fast Forward Filled-20.png">
             <img alt="SFSd" id="play-button" (click)="playButton()" src="assets/icons8-Play Filled_30.png"/>
-            <img  style="width:30px" (click)="stopButton()" src="assets/26445.png" id="pause-button">
+            <img id="playlistImage" (click)="previousplay()" src="assets/icons8-Rewind Filled-20.png">
+            <img id="playlistImage" (click)="stopButton()" src="assets/26445.png">
+            <button type="button" (click)="clearPlaylist()">clearPlaylist</button>
 
               <!-- <button type="button" class="btn btn-default" (click)="playVideo()">Play</button>
               <button type="button" class="btn btn-default" (click)="pauseVideo()">Pause</button> -->
@@ -61,15 +64,15 @@
          </div>
          <div>
           <!-- <h3 style="background-color:black;color:white;margin-top:0px">my playlist</h3> -->
-          <div  style="overflow-x:hidden;height:365px;margin-top:-35px;">
+          <div id="playlistInfo">
              <div *ngFor="let data of playlistdata" >
                 <div id="playlist" class="col-lg-12" style="padding:5px;"  (click)="mediaPlayer(data)">
-               <div style="float:right"><span class="glyphicon glyphicon-trash" (click)="deleteData(data)"></span>
+               <div id="delete" style=""><span class="glyphicon glyphicon-trash" (click)="deleteData(data)"></span>
                </div>
               <div class="col-lg-3">
-              <img style="width:100px;" src="{{data.snippet.thumbnails.default.url}}"/>
+              <img id="playedImage"  src="{{data.snippet.thumbnails.default.url}}"/>
                 </div>
-                <div style="margin-top:-10px;padding-left:29px;" class="col-lg-9">
+                <div id="playTitle"  class="col-lg-9">
                   {{data.snippet.title}}
                 </div>
              </div>
@@ -78,27 +81,24 @@
       </div>
 
    </div>
-      <div class="col-lg-4" style="margin-top:64px;height:100%;box-shadow: 0px 10px 10px #888888;" >
+      <div class="col-lg-4"  style="margin-top:64px;height:100%;box-shadow: 0px 10px 10px #888888;" >
 
          <!-- <youtube-player  [videoId]='youplay'  (ready)="savePlayer($event)"
             (change)="onStateChange($event)">
          </youtube-player> -->
-         <div style="width:360px;height:250px">
-            <!-- <video id="myVideo" width="360" height="300"> -->
-            <!-- <source src="url" type="video/mp4"> -->
-          <iframe width="360" height="250" [src]="url"  frameborder="0" allowfullscreen></iframe>
-       <!-- </video> -->
+         <div  id="player">
+          <iframe  width="360px" height="250px" [src]="url"  frameborder="0" allowfullscreen></iframe>
        </div>
-         <div  style="overflow:auto;height:365px;box-sizing: border-box;margin-top:19px;">
+         <div id="playerdiv">
          <div *ngFor="let data of playedInfo" >
-            <div id="history" class="col-lg-12" style="border:1px solid black;padding:10px;"  (click)="mediaPlayer(data)">
+            <div id="history" class="col-lg-12 hist" (click)="youtube(data)">
            <div style="float:right"><span class="glyphicon glyphicon-trash" (click)="deleteDataplay(data)"></span>
            </div>
            <div  class="col-lg-8">
              {{data.snippet.title}}
            </div>
           <div class="col-lg-4" style="margin-top:-10px;" >
-          <img style="margin-left: -25px;width: 100px;" src="{{data.snippet.thumbnails.default.url}}"/>
+          <img id="defaultImage"  src="{{data.snippet.thumbnails.default.url}}"/>
             </div>
          </div>
          </div>

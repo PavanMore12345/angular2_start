@@ -26,8 +26,20 @@
 #mobiletable
 {
     margin-left: 45px;
+    width:400px;
 }
  td
  {
 padding-left: 15px;
  }
+#mainDiv
+{
+   margin-top:50px;
+}
+#smallImage
+{
+   margin:auto;
+   height:200px;
+   width:150px;
+   display:block;
+}

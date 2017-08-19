@@ -10,6 +10,23 @@ import 'rxjs/add/operator/map';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
+/******************************************************************************
+ *  Execution       :   1. default ng build command run then
+ *                      2. if nodemon installed  nodemon app.js
+ *
+ *  Purpose         : online mobile shopping site.
+ *
+ *  @description
+ *
+ *  @file           : app.component.ts.
+ *  @overview       : it shows the mobile with differant price and specification.
+ *  @module         : 
+ *  @author         : pavan <pavanmore82@gmail.com>
+ *  @version        : 1.0
+ *  @since          : 01-08-2017
+ *
+ ******************************************************************************/
+
 export class AppComponent implements OnInit{
     constructor(private postsService: PostsService,public http: Http, private router: Router){
 

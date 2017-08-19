@@ -1,8 +1,5 @@
 import { BrowserModule } from '@angular/platform-browser';
-//import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
 import { NgModule } from '@angular/core';
-// import{ FormGroup,FormControl} from '@angular/forms';
-// import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { CommonModule } from '@angular/common';
 import { HttpModule } from '@angular/http';
 import { RouterModule, Routes } from '@angular/router';
@@ -22,35 +19,28 @@ import { AddcardComponent } from './addcard/addcard.component';
 import { AddressComponent } from './address/address.component';
 import { PayamentinfoComponent } from './payamentinfo/payamentinfo.component';
 import { HistoryComponent } from './history/history.component';
- import {PopupModule} from 'ng2-opd-popup';
+import {PopupModule} from 'ng2-opd-popup';
 import { WishlistComponent } from './wishlist/wishlist.component';
 import { AnagramComponent } from './anagram/anagram.component';
 import { MediaplayerComponent } from './mediaplayer/mediaplayer.component';
-import { YoutubePlayerModule } from 'ng2-youtube-player';
 import { Ng2SearchPipeModule } from 'ng2-search-filter';
-import { MaterialModule } from "@angular/material";
-// import { ImagecropperComponent } from './imagecropper/imagecropper.component';
-// import { Ng2CropperComponent } from './ng2-cropper/ng2-cropper.component';
-// import {Ng2CropperjsModule} from "./ng2-cropper/ng2-cropperjs.module";
-  // import {BrowserAnimationsModule} from '@angular/platform-browser/animations'
-//
-const appRoutes : Routes = [
-  // { path : '' , component : HomeComponent },
-  { path : 'register' , component : RegisterComponent },
-  { path:'dashboard',  component:DashboardComponent},
-  { path:'mobileinfo',  component:MobileinfoComponent},
-  { path:'addcard',  component:AddcardComponent},
-  { path:'address',  component:AddressComponent},
-  { path:'payamentinfo',  component:PayamentinfoComponent},
-   { path:'history',  component:HistoryComponent},
-   { path:'wishlist', component:WishlistComponent},
-   { path:'anagram', component:AnagramComponent},
-   { path:'mediaplayer', component:MediaplayerComponent},
-   // { path:'imagecropper', component:ImagecropperComponent},
+const appRoutes: Routes = [
+  { path: '', component: HomeComponent },
+  { path: 'register', component: RegisterComponent },
+  { path: 'dashboard', component: DashboardComponent },
+  { path: 'mobileinfo', component: MobileinfoComponent },
+  { path: 'addcard', component: AddcardComponent },
+  { path: 'address', component: AddressComponent },
+  { path: 'payamentinfo', component: PayamentinfoComponent },
+  { path: 'history', component: HistoryComponent },
+  { path: 'wishlist', component: WishlistComponent },
+  { path: 'anagram', component: AnagramComponent },
+  { path: 'mediaplayer', component: MediaplayerComponent },
+  // { path:'imagecropper', component:ImagecropperComponent},
 ];
-//
- @NgModule({
-   declarations: [
+
+@NgModule({
+  declarations: [
     AppComponent,
     HomeComponent,
     RegisterComponent,
@@ -67,23 +57,19 @@ const appRoutes : Routes = [
     WishlistComponent,
     AnagramComponent,
     MediaplayerComponent
-   //  ImagecropperComponent,
-   //  Ng2CropperComponent
-    //,PostsComponent
-   ],
-   imports: [
+  ],
+  imports: [
     CommonModule,
     BrowserModule,
     FormsModule,
-    YoutubePlayerModule ,
     HttpModule,
     Ng2SearchPipeModule,
     ToastModule.forRoot(),
     PopupModule.forRoot(),
-    MaterialModule.forRoot(),
-    RouterModule.forRoot(appRoutes, { useHash: true})
+    RouterModule.forRoot(appRoutes, { useHash: true })
+    //routing
   ],
-  providers: [PostsService,FilterdataPipe,SortByPipe],
-   bootstrap: [AppComponent]
- })
- export class AppModule { }
+  providers: [PostsService, FilterdataPipe, SortByPipe],
+  bootstrap: [AppComponent]
+})
+export class AppModule { }

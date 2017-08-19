@@ -1,0 +1,36 @@
+#mainDiv {
+  margin-top: 100px;
+}
+
+#dataDiv {
+  border: 1px solid black;
+  margin-top: 20px;
+  padding: 10px
+}
+
+#trash {
+  float: right;
+}
+
+#imagesmall {
+  margin: auto;
+  width: 75px;
+  height: 90px;
+  display: block;
+}
+
+#mobiletable {
+  width: 400px;
+}
+
+#addtoCart {
+  margin: auto;
+  display: block;
+  background: black;
+  color: white
+}
+#noProduct
+{
+   margin-top:200px;
+   color:red;
+}

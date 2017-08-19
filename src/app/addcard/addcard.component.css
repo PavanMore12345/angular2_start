@@ -26,8 +26,56 @@
 #mobiletable
 {
     margin-left: 45px;
+    width: 400px;
 }
  td
  {
-padding-left: 15px;    
+padding-left: 15px;
  }
+#cardData
+{
+   margin-top:50px;
+}
+#smallimage
+{
+   margin:auto;
+   height:200px;
+   width:150px;
+   display:block;
+}
+#rowId
+{
+   margin-top:30px;
+}
+#paymentOptions
+{
+   height:40px;
+   background-color:#2874f0;
+   color:white
+}
+#tablerow
+{
+   height:40px;
+}
+#placeorder
+{
+   background-color:#fb641b;
+   margin:auto;
+   display:block;
+}
+#adddata
+{
+   margin-top:180px;
+}
+#addItems
+{
+   text-align:center;
+   color:blue;
+   box-shadow: 10px 10px 5px #888888;
+}
+#wishlist
+{
+   margin:auto;
+   display:block;
+   width:450px
+}

@@ -3,7 +3,7 @@ import { CommonModule } from '@angular/common';
 import {RouterModule, Routes, Router} from '@angular/router';
 import {Http, Response, Request, RequestMethod} from '@angular/http';
 import { ActivatedRoute } from '@angular/router';
-import { ToastsManager, ToastOptions } from 'ng2-toastr/ng2-toastr';
+import { Toast,ToastsManager, ToastOptions } from 'ng2-toastr/ng2-toastr';
 @Component({
   selector: 'app-mobileinfo',
   templateUrl: './mobileinfo.component.html',
@@ -24,20 +24,19 @@ export class MobileinfoComponent implements OnInit {
   count = 0;
   wishlistcount = 0;
   @Output() clicked = new EventEmitter<any>();
-  constructor(private route: ActivatedRoute, private toastr: ToastsManager,
+  constructor(private route: ActivatedRoute, private toastr: ToastsManager, private options:ToastOptions,
     private _vcr: ViewContainerRef) {
     this.toastr.setRootViewContainerRef(_vcr);
+    this.options.toastLife = 1000;
   }
   ngOnInit() {
     this.data = JSON.parse(localStorage.getItem("mobile"));
+    /* for displaying rating of the mobile. */
     for (this.i = 1; this.i <= this.data.rating; this.i++) {
       this.items.push(this.i);
     }
-    if (JSON.parse(localStorage.getItem("status"))) {
-      this.toastr.success("Success", 'card added successfully.');
-      localStorage.setItem("status", JSON.stringify(0));
-    }
   }
+  /* when click on addtoCart button this function will call. */
   addtoCart(data) {
     console.log("addtoCart");
     var mobileData;
@@ -48,8 +47,14 @@ export class MobileinfoComponent implements OnInit {
       names = mobileData;
       console.log(names);
       for (let i = 0; i < names.length; i++) {
+         /*it check mobile already exist in the list or not */
         if (names[i].id == data.id) {
-          this.toastr.error("Oops!", 'it already exist in card.');
+          this.toastr.error('It already exist into the cart.. ', 'Oops!', {dismiss: 'controlled'})
+            .then((toast: Toast) => {
+                 setTimeout(() => {
+                     this.toastr.dismissToast(toast);
+                 }, 1000);
+            });
           return;
         }
       }
@@ -57,15 +62,21 @@ export class MobileinfoComponent implements OnInit {
     } else {
       names.push(data);
     }
-    let abc = JSON.stringify(names);
-    console.log("abc", abc);
-    localStorage.setItem("addToCard", abc);
+    let dataArray = JSON.stringify(names);
+    console.log("abc", dataArray);
+    localStorage.setItem("addToCard", dataArray);
     this.count = JSON.parse(localStorage.getItem("count"));
     this.count = this.count + 1;
     localStorage.setItem("status", JSON.stringify(1));
-    window.location.reload();
     localStorage.setItem("count", JSON.stringify(this.count));
+    this.toastr.success('added to the cart', 'Success!', {dismiss: 'controlled'})
+      .then((toast: Toast) => {
+           setTimeout(() => {
+               this.toastr.dismissToast(toast);
+           }, 1000);
+      });
   }
+  /*when click on wishlist button this function will call.*/
   wishlist(data) {
     var wishlistdata;
     var names = [];
@@ -76,7 +87,12 @@ export class MobileinfoComponent implements OnInit {
       console.log(names);
       for (let i = 0; i < names.length; i++) {
         if (names[i].id == data.id) {
-          this.toastr.error("Oops!", 'it already exist in wishlist.');
+          this.toastr.error('it already exist in wishlist', 'Oops!', {dismiss: 'controlled'})
+            .then((toast: Toast) => {
+                 setTimeout(() => {
+                     this.toastr.dismissToast(toast);
+                 }, 1000);
+            });
           return;
         }
       }
@@ -90,7 +106,12 @@ export class MobileinfoComponent implements OnInit {
     localStorage.setItem("wishlist", arrayData);
     this.wishlistcount = JSON.parse(localStorage.getItem("wicount"));
     this.wishlistcount = this.wishlistcount + 1;
-    this.toastr.success("Success", 'successfully added to the wishlist.');
+    this.toastr.success('added to the wishlist', 'Success!', {dismiss: 'controlled'})
+      .then((toast: Toast) => {
+           setTimeout(() => {
+               this.toastr.dismissToast(toast);
+           }, 1000);
+      });
     localStorage.setItem("wicount", JSON.stringify(this.wishlistcount));
   }
 }
